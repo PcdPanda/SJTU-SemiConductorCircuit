@@ -1,0 +1,62 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Thu Nov 15 20:43:27 2018
+# Process ID: 2256
+# Current directory: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent15296 D:\PANDA\Study\VE370\Project\Project2\P2 single cycle\P2 single cycle.xpr
+# Log file: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/vivado.log
+# Journal file: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim

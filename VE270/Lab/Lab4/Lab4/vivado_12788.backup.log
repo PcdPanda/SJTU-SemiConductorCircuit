@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 19 23:16:53 2018
+# Process ID: 12788
+# Current directory: D:/PANDA/Study/VE270/Lab/Lab4/Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14528 D:\PANDA\Study\VE270\Lab\Lab4\Lab4\Lab4.xpr
+# Log file: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/vivado.log
+# Journal file: D:/PANDA/Study/VE270/Lab/Lab4/Lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc
+file delete -force D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:18:59 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:19:32 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 19 23:22:44 2018...

@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Nov 18 17:49:47 2018
+# Process ID: 19816
+# Current directory: D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.runs/impl_1
+# Command line: vivado.exe -log SingleCycle.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source SingleCycle.tcl -notrace
+# Log file: D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.runs/impl_1/SingleCycle.vdi
+# Journal file: D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source SingleCycle.tcl -notrace

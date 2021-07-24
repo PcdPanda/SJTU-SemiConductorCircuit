@@ -1,0 +1,29 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Introduction and Objective}{3}
+\contentsline {section}{\numberline {2}Top Level Block Diagram}{3}
+\contentsline {subsection}{\numberline {2.1}Single cycle}{3}
+\contentsline {subsection}{\numberline {2.2}PipeLine}{4}
+\contentsline {section}{\numberline {3}Design of Components}{4}
+\contentsline {subsection}{\numberline {3.1}IF stage}{4}
+\contentsline {subsection}{\numberline {3.2}Instruction Memory}{4}
+\contentsline {subsection}{\numberline {3.3}ID stage}{5}
+\contentsline {subsection}{\numberline {3.4}EX stage}{5}
+\contentsline {subsection}{\numberline {3.5}MEM stage}{5}
+\contentsline {subsection}{\numberline {3.6}WB stage}{5}
+\contentsline {section}{\numberline {4}Control and Data Hazard}{5}
+\contentsline {subsection}{\numberline {4.1}EX stage}{5}
+\contentsline {subsection}{\numberline {4.2}ID stage}{6}
+\contentsline {subsubsection}{\numberline {4.2.1}Control Hazard}{6}
+\contentsline {subsubsection}{\numberline {4.2.2}Data Hazard}{6}
+\contentsline {section}{\numberline {5}Instruction Implementation}{6}
+\contentsline {section}{\numberline {6}SSD and Top Module}{6}
+\contentsline {subsection}{\numberline {6.1}Internal Clock Divider}{6}
+\contentsline {subsection}{\numberline {6.2}SSD Display}{7}
+\contentsline {subsection}{\numberline {6.3}Constrain File}{8}
+\contentsline {section}{\numberline {7}Textual Result}{9}
+\contentsline {section}{\numberline {8}Conclusion and Discussion}{9}
+\contentsline {subsection}{\numberline {8.1}Single Cycle}{9}
+\contentsline {section}{\numberline {9}Reference}{9}
+\contentsline {section}{\numberline {10}Appendix}{10}
+\contentsline {subsection}{\numberline {10.1}Textual Result}{10}
+\contentsline {subsubsection}{\numberline {10.1.1}Single Cycle Textual Result}{10}

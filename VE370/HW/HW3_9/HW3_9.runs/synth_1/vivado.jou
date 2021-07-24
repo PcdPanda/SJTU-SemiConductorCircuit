@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Oct 16 10:59:13 2018
+# Process ID: 15340
+# Current directory: D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.runs/synth_1
+# Command line: vivado.exe -log HW3_3.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source HW3_3.tcl
+# Log file: D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.runs/synth_1/HW3_3.vds
+# Journal file: D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source HW3_3.tcl -notrace

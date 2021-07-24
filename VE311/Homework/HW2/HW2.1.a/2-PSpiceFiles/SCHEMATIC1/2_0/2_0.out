@@ -1,0 +1,106 @@
+
+**** 06/07/19 14:04:49 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-2_0"  [ D:\PANDA\Study\VE311\Homework\HW2\HW2.1.a\2-pspicefiles\schematic1\2_0.sim ] 
+
+
+ ****     CIRCUIT DESCRIPTION
+
+
+******************************************************************************
+
+
+
+
+** Creating circuit file "2_0.cir" 
+** WARNING: THIS AUTOMATICALLY GENERATED FILE MAY BE OVERWRITTEN BY SUBSEQUENT SIMULATIONS
+
+*Libraries: 
+* Profile Libraries :
+* Local Libraries :
+* From [PSPICE NETLIST] section of C:\SPB_Data\cdssetup\OrCAD_PSpice\17.2.0\PSpice.ini file:
+.lib "nomd.lib" 
+
+*Analysis directives: 
+.TRAN  0 0.5 0 
+.OPTIONS ADVCONV
+.PROBE64 V(alias(*)) I(alias(*)) W(alias(*)) D(alias(*)) NOISE(alias(*)) 
+.INC "..\SCHEMATIC1.net" 
+
+
+
+**** INCLUDING SCHEMATIC1.net ****
+* source 2
+D_D1         N00119 N00126 Dbreak 
+V_Vs         N00119 0  AC 1
++SIN 0 5 60 0 0 0
+C_C1         0 N00126  0.000143  TC=0,0 
+R_Vout         0 N00126  5000 TC=0,0 
+
+**** RESUMING 2_0.cir ****
+.END
+
+**** 06/07/19 14:04:49 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-2_0"  [ D:\PANDA\Study\VE311\Homework\HW2\HW2.1.a\2-pspicefiles\schematic1\2_0.sim ] 
+
+
+ ****     Diode MODEL PARAMETERS
+
+
+******************************************************************************
+
+
+
+
+               Dbreak          
+          IS   10.000000E-15 
+          RS     .1          
+         CJO  100.000000E-15 
+
+
+**** 06/07/19 14:04:49 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-2_0"  [ D:\PANDA\Study\VE311\Homework\HW2\HW2.1.a\2-pspicefiles\schematic1\2_0.sim ] 
+
+
+ ****     INITIAL TRANSIENT SOLUTION       TEMPERATURE =   27.000 DEG C
+
+
+******************************************************************************
+
+
+
+ NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE     NODE   VOLTAGE
+
+
+(N00119)    0.0000 (N00126)-537.3E-30 
+
+
+
+
+    VOLTAGE SOURCE CURRENTS
+    NAME         CURRENT
+
+    V_Vs         0.000E+00
+
+    TOTAL POWER DISSIPATION   0.00E+00  WATTS
+
+
+
+          JOB CONCLUDED
+
+**** 06/07/19 14:04:49 ******* PSpice Lite (March 2016) ******* ID# 10813 ****
+
+ ** Profile: "SCHEMATIC1-2_0"  [ D:\PANDA\Study\VE311\Homework\HW2\HW2.1.a\2-pspicefiles\schematic1\2_0.sim ] 
+
+
+ ****     JOB STATISTICS SUMMARY
+
+
+******************************************************************************
+
+
+
+  Total job time (using Solver 1)   =         .06
+

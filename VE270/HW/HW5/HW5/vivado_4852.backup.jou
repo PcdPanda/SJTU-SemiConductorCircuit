@@ -1,0 +1,41 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Jun 20 14:41:31 2018
+# Process ID: 4852
+# Current directory: D:/PANDA/Study/VE270/HW/HW5/HW5
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent800 D:\PANDA\Study\VE270\HW\HW5\HW5\HW5.xpr
+# Log file: D:/PANDA/Study/VE270/HW/HW5/HW5/vivado.log
+# Journal file: D:/PANDA/Study/VE270/HW/HW5/HW5\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PANDA/Study/VE270/HW/HW5/HW5/HW5.xpr
+
+update_compile_order -fileset sources_1
+launch_simulation
+source Q5test.tcl
+close_sim
+launch_simulation
+source Q5test.tcl
+close_sim
+launch_simulation
+source Q5test.tcl
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+close_sim
+launch_simulation
+source Q5test.tcl
+close_sim
+launch_simulation
+source Q5test.tcl
+close_sim
+launch_simulation
+source Q5test.tcl
+close_sim
+launch_simulation
+source Q5test.tcl
+close_sim
+launch_simulation
+source Q5test.tcl
+close_sim

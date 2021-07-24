@@ -1,0 +1,13 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module SingleCycle
+INFO: [VRFC 10-311] analyzing module IF
+INFO: [VRFC 10-311] analyzing module ID
+INFO: [VRFC 10-311] analyzing module EX
+INFO: [VRFC 10-311] analyzing module MEM
+INFO: [VRFC 10-311] analyzing module WB
+INFO: [VRFC 10-311] analyzing module control
+INFO: [VRFC 10-311] analyzing module register
+INFO: [VRFC 10-311] analyzing module ALU_control
+INFO: [VRFC 10-311] analyzing module ALU
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sim_1/new/single_cycle_test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module single_cycle_test

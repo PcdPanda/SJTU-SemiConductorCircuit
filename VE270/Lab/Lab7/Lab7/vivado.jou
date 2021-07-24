@@ -1,0 +1,18 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Nov 18 16:37:10 2018
+# Process ID: 7108
+# Current directory: D:/PANDA/Study/VE270/Lab/Lab7/Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16288 D:\PANDA\Study\VE270\Lab\Lab7\Lab7\Lab7.xpr
+# Log file: D:/PANDA/Study/VE270/Lab/Lab7/Lab7/vivado.log
+# Journal file: D:/PANDA/Study/VE270/Lab/Lab7/Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PANDA/Study/VE270/Lab/Lab7/Lab7/Lab7.xpr
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1
+open_run impl_1

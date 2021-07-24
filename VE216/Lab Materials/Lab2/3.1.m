@@ -1,0 +1,16 @@
+clear all;
+hold off;
+R1=20;
+L1=960*10^(-6);
+C1=100*10^(-12);
+R2=90;
+L2=960*10^(-6);
+C2=30*10^(-12);
+freq=logspace(5,7,100);
+w = 2. * pi .* freq;
+ans1 =  20 .* log(abs(1 ./ (-1 .* w.^2 .* C1 .* L1 + 1i .* w .* C1 .* R1 + 1)));
+ans2 = 20 .* log(abs(1 ./ (-1 .* w.^2 .* C2 .* L2 + 1i .* w .* C2 .* R2 + 1)));
+semilogx(freq, ans1);
+hold on ;
+semilogx(freq, ans2);
+grid on ;

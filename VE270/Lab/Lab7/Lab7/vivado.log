@@ -1,0 +1,47 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Sun Nov 18 16:37:10 2018
+# Process ID: 7108
+# Current directory: D:/PANDA/Study/VE270/Lab/Lab7/Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16288 D:\PANDA\Study\VE270\Lab\Lab7\Lab7\Lab7.xpr
+# Log file: D:/PANDA/Study/VE270/Lab/Lab7/Lab7/vivado.log
+# Journal file: D:/PANDA/Study/VE270/Lab/Lab7/Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PANDA/Study/VE270/Lab/Lab7/Lab7/Lab7.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:11 ; elapsed = 00:00:06 . Memory (MB): peak = 909.508 ; gain = 161.379
+update_compile_order -fileset sources_1
+reset_run impl_1
+launch_runs impl_1 -jobs 4
+[Sun Nov 18 17:07:20 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab7/Lab7/Lab7.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 29 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.044 . Memory (MB): peak = 1772.816 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.045 . Memory (MB): peak = 1772.816 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:26 ; elapsed = 00:00:23 . Memory (MB): peak = 1840.691 ; gain = 891.410
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 18 17:48:05 2018...

@@ -1,0 +1,22 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 19 23:16:53 2018
+# Process ID: 12788
+# Current directory: D:/PANDA/Study/VE270/Lab/Lab4/Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent14528 D:\PANDA\Study\VE270\Lab\Lab4\Lab4\Lab4.xpr
+# Log file: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/vivado.log
+# Journal file: D:/PANDA/Study/VE270/Lab/Lab4/Lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.xpr
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc] -no_script -reset -force -quiet
+remove_files  -fileset constrs_1 D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc
+file delete -force D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_runs impl_1 -jobs 4
+wait_on_run impl_1

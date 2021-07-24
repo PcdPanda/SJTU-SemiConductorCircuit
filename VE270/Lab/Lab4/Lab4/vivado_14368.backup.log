@@ -1,0 +1,227 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Tue Jun 19 23:24:00 2018
+# Process ID: 14368
+# Current directory: D:/PANDA/Study/VE270/Lab/Lab4/Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16304 D:\PANDA\Study\VE270\Lab\Lab4\Lab4\Lab4.xpr
+# Log file: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/vivado.log
+# Journal file: D:/PANDA/Study/VE270/Lab/Lab4/Lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'.
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 901.199 ; gain = 159.465
+update_compile_order -fileset sources_1
+open_hw
+close_hw
+launch_simulation
+INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [SIM-utils-51] Simulation object is 'sim_1'
+INFO: [SIM-utils-54] Inspecting design source files for 'lab4test' in fileset 'sim_1'...
+INFO: [USF-XSim-97] Finding global include files...
+INFO: [USF-XSim-98] Fetching design files from 'sim_1'...
+INFO: [USF-XSim-2] XSim::Compile design
+INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+"xvlog --incr --relax -prj lab4test_vlog.prj"
+INFO: [USF-XSim-69] 'compile' step finished in '1' seconds
+INFO: [USF-XSim-3] XSim::Elaborate design
+INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+Vivado Simulator 2018.1
+Copyright 1986-1999, 2001-2017 Xilinx, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2018.1/bin/unwrapped/win64.o/xelab.exe -wto 51f453300a7d43fb937c02174dc08564 --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot lab4test_behav xil_defaultlib.lab4test xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Completed static elaboration
+INFO: [XSIM 43-4323] No Change in HDL. Linking previously generated obj files to create kernel
+INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds
+INFO: [USF-XSim-4] XSim::Simulate design
+INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.sim/sim_1/behav/xsim'
+INFO: [USF-XSim-98] *** Running xsim
+   with args "lab4test_behav -key {Behavioral:sim_1:Functional:lab4test} -tclbatch {lab4test.tcl} -log {simulate.log}"
+INFO: [USF-XSim-8] Loading simulator feature
+Vivado Simulator 2018.1
+Time resolution is 1 ps
+source lab4test.tcl
+# set curr_wave [current_wave_config]
+# if { [string length $curr_wave] == 0 } {
+#   if { [llength [get_objects]] > 0} {
+#     add_wave /
+#     set_property needs_save false [current_wave_config]
+#   } else {
+#      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console."
+#   }
+# }
+# run 1000ns
+INFO: [USF-XSim-96] XSim completed. Design snapshot 'lab4test_behav' loaded.
+INFO: [USF-XSim-97] XSim simulation ran for 1000ns
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:25:55 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:26:49 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Common 17-344] 'open_run' was cancelled
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 3 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2018.1
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Timing 38-478] Restoring timing data from binary archive.
+INFO: [Timing 38-479] Binary timing data restore complete.
+INFO: [Project 1-856] Restoring constraints from binary archive.
+INFO: [Project 1-853] Binary constraint restore complete.
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1747.770 ; gain = 0.000
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.037 . Memory (MB): peak = 1747.770 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:24 ; elapsed = 00:00:19 . Memory (MB): peak = 1844.945 ; gain = 813.980
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+set_property IOSTANDARD LVCMOS33 [get_ports [list {x[3]} {x[2]} {x[1]} {x[0]}]]
+place_ports {x[3]} V19
+place_ports {x[2]} U19
+place_ports {x[1]} E19
+place_ports {x[0]} U16
+place_ports clk W16
+place_ports reset V16
+place_ports ud V17
+set_property IOSTANDARD LVCMOS33 [get_ports [list clk]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list reset]]
+set_property IOSTANDARD LVCMOS33 [get_ports [list ud]]
+close [ open D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc w ]
+add_files -fileset constrs_1 D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc
+set_property target_constrs_file D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.srcs/constrs_1/new/extension.xdc [current_fileset -constrset]
+save_constraints -force
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:31:45 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:32:33 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:35:07 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:35:53 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:40:53 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:41:58 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:43:27 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+[Tue Jun 19 23:43:27 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. PID not specified
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:43:32 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:44:10 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:46:15 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:47:11 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+reset_run impl_1 -prev_step 
+INFO: [Common 17-41] Interrupt caught. Command should exit soon.
+INFO: [Common 17-344] 'reset_run' was cancelled
+reset_run synth_1
+WARNING: [Vivado 12-1017] Problems encountered:
+1. Failed to delete one or more files in run directory D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1
+
+launch_runs synth_1 -jobs 4
+[Tue Jun 19 23:47:46 2018] Launched synth_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Tue Jun 19 23:48:50 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 4
+[Tue Jun 19 23:50:23 2018] Launched impl_1...
+Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2018.1
+  **** Build date : Apr  4 2018-19:32:53
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183A387B0A
+set_property PROGRAM.FILE {D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/lab4.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {D:/PANDA/Study/VE270/Lab/Lab4/Lab4/Lab4.runs/impl_1/lab4.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_sim
+INFO: [Simtcl 6-16] Simulation closed
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Jun 19 23:55:39 2018...

@@ -1,0 +1,7 @@
+Running: xsim.dir/HW6test_behav/xsimk.exe -simmode gui -wdb HW6test_behav.wdb -simrunnum 0 -socket 5460
+Design successfully loaded
+Design Loading Memory Usage: 5188 KB (Peak: 5188 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 5784 KB (Peak: 5784 KB)
+Simulation CPU Usage: 15 ms

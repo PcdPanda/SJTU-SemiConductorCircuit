@@ -1,0 +1,309 @@
+#-----------------------------------------------------------
+# Vivado v2018.1 (64-bit)
+# SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+# IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+# Start of session at: Wed Nov 14 15:15:28 2018
+# Process ID: 1700
+# Current directory: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent12428 D:\PANDA\Study\VE370\Project\Project2\P2 single cycle\P2 single cycle.xpr
+# Log file: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/vivado.log
+# Journal file: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.xpr}
+update_compile_order -fileset sources_1
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+add_bp {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v} 122
+remove_bps -file {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v} -line 122
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+add_bp {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v} 289
+remove_bps -file {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v} -line 289
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_runs synth_1 -jobs 4
+wait_on_run synth_1
+launch_simulation
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim
+launch_simulation
+source single_cycle_test.tcl
+close_sim

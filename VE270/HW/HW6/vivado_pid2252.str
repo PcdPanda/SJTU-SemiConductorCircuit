@@ -1,0 +1,937 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 2252
+License: Customer
+
+Current time: 	Mon Oct 15 00:18:50 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 23 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	PANDA
+User home directory: C:/Users/PANDA
+User working directory: D:/PANDA/Study/VE270/HW/HW6
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/PANDA/Study/VE270/HW/HW6/vivado.log
+Vivado journal file location: 	D:/PANDA/Study/VE270/HW/HW6/vivado.jou
+Engine tmp dir: 	D:/PANDA/Study/VE270/HW/HW6/.Xil/Vivado-2252-DESKTOP-C5CEFDM
+
+GUI allocated memory:	178 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 634 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: D:\PANDA\Study\VE270\HW\HW6\HW6.xpr. Version: Vivado v2018.1 
+// [GUI Memory]: 67 MB (+68032kb) [00:00:05]
+// [Engine Memory]: 513 MB (+386136kb) [00:00:05]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project D:/PANDA/Study/VE270/HW/HW6/HW6.xpr 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/PANDA/Study/VE270/HW/HW6/HW6.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 573 MB (+36589kb) [00:00:07]
+// [GUI Memory]: 86 MB (+15839kb) [00:00:08]
+// [Engine Memory]: 625 MB (+24690kb) [00:00:08]
+// [GUI Memory]: 93 MB (+3526kb) [00:00:08]
+// [GUI Memory]: 100 MB (+1910kb) [00:00:08]
+// Project name: HW6; location: D:/PANDA/Study/VE270/HW/HW6; part: xc7a35tcpg236-1
+// HMemoryUtils.trashcanNow. Engine heap size: 646 MB. GUI used memory: 42 MB. Current time: 10/15/18 12:18:51 AM CST
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// Elapsed time: 113 seconds
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW6test (HW6test.v), UUT : HW6 (HW6.v)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW6test (HW6test.v), UUT : HW6 (HW6.v)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 46 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW6test (HW6test.v), UUT : HW6 (HW6.v)]", 6, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, ch)
+// [Engine Memory]: 659 MB (+1811kb) [00:02:53]
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW6test (HW6test.v)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW6test (HW6test.v)]", 5, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, ch)
+selectCodeEditor("HW6test.v", 119, 490); // cd (w, ch)
+typeControlKey((HResource) null, "HW6test.v", 'c'); // cd (w, ch)
+// Elapsed time: 55 seconds
+selectCodeEditor("HW6test.v", 149, 388); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 667 MB. GUI used memory: 44 MB. Current time: 10/15/18 12:26:56 AM CST
+// Elapsed time: 265 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW6.v", 1); // k (j, ch)
+// Elapsed time: 88 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW6test.v", 2); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 704 MB. GUI used memory: 44 MB. Current time: 10/15/18 12:28:31 AM CST
+// [Engine Memory]: 704 MB (+13256kb) [00:09:50]
+// Elapsed time: 76 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW6.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW6test.v", 2); // k (j, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 704 MB. GUI used memory: 44 MB. Current time: 10/15/18 12:58:31 AM CST
+// Elapsed time: 3116 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_EDIT, "Edit"); // U (q, ch)
+selectButton(PAResourceItoN.MainToolbarMgr_OPEN, (String) null); // ay (f, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_OPEN_PROJECT, "Open Project..."); // ac (ch)
+// Run Command: PAResourceCommand.PACommandNames_OPEN_PROJECT
+// Elapsed time: 12 seconds
+setFileChooser("D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.xpr");
+// TclEventType: PROJECT_CLOSE
+// HMemoryUtils.trashcanNow. Engine heap size: 704 MB. GUI used memory: 46 MB. Current time: 10/15/18 1:22:01 AM CST
+// Opening Vivado Project: D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+selectButton("PAResourceOtoP.PABaseTab_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton (A, G)
+// Tcl Message: close_project 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// Project name: HW3_1; location: D:/PANDA/Study/VE370/HW/HW3_1; part: xc7a35tcpg236-1
+// 'i' command handler elapsed time: 15 seconds
+dismissDialog("Open Project"); // bv (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// [Engine Memory]: 746 MB (+6577kb) [01:03:23]
+// TclEventType: DG_GRAPH_GENERATED
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'HW3_1_TEST' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj HW3_1_TEST_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 4 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+// Tcl Message: update_compile_order -fileset sources_1 
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HW3_1 (HW3_1.v)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HW3_1 (HW3_1.v)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources]", 3); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v), UUT : HW3_1 (HW3_1.v)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v), UUT : HW3_1 (HW3_1.v)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("HW3_1.v", 168, 252); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'HW3_1_TEST' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj HW3_1_TEST_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 4 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+selectTab((HResource) null, (HResource) null, "Messages", 1); // aE (Q, ch)
+// Elapsed time: 22 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'HW3_1_TEST' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj HW3_1_TEST_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '2' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 3 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v), UUT : HW3_1 (HW3_1.v)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v), UUT : HW3_1 (HW3_1.v)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v), UUT : HW3_1 (HW3_1.v)]", 6, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v)]", 5, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v)]", 5, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_1_TEST (HW3_1_TEST.v)]", 5, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'HW3_1_TEST' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj HW3_1_TEST_vlog.prj" 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '1' seconds 
+// Tcl Message: ERROR: [USF-XSim-62] 'elaborate' step failed with error(s) while executing 'D:/PANDA/Study/VE370/HW/HW3_1/HW3_1.sim/sim_1/behav/xsim/elaborate.bat' script. Please check that the file has the correct 'read/write/execute' permissions and the Tcl console output for any other possible errors or warnings. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 3 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+selectCodeEditor("HW3_1_TEST.v", 74, 352); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("HW3_1_TEST.v", 113, 350); // cd (w, ch)
+selectCodeEditor("HW3_1_TEST.v", 313, 303); // cd (w, ch)
+selectCodeEditor("HW3_1_TEST.v", 277, 355); // cd (w, ch)
+selectCodeEditor("HW3_1_TEST.v", 258, 376); // cd (w, ch)
+selectCodeEditor("HW3_1_TEST.v", 255, 429); // cd (w, ch)
+// Elapsed time: 79 seconds
+selectMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+selectMenu(PAResourceItoN.MainMenuMgr_PROJECT, "Project"); // Z (ch)
+selectMenuItem(PAResourceCommand.PACommandNames_NEW_PROJECT, "New..."); // ac (ch)
+dismissMenu(PAResourceItoN.MainMenuMgr_FILE, "File"); // U (q, ch)
+// Run Command: PAResourceCommand.PACommandNames_NEW_PROJECT
+// f (ch): New Project: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, f)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "HW3_"); // X (Q, f)
+setText(PAResourceOtoP.ProjectNameChooser_PROJECT_NAME, "HW3_9"); // X (Q, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectButton("NEXT", "Next >"); // JButton (j, f)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a35tcpg236-1 ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 3, "xc7a35tcpg236-1", 0); // v (O, f)
+selectTable(PAResourceEtoH.FPGAChooser_FPGA_TABLE, "xc7a35tcpg236-1 ; 236 ; 106 ; 20800 ; 41600 ; 50 ; 0 ; 90 ; 2 ; 2 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 0 ; 1 ; 5 ;  ;  ;  ;  ; 0.95 ; 0.95 ; 1.05", 3, "xc7a35tcpg236-1", 0, false, false, false, false, true); // v (O, f) - Double Click
+selectButton("NEXT", "Next >"); // JButton (j, f)
+// an (ch): Save Project: addNotify
+selectButton("PAResourceItoN.NewProjectWizard_WOULD_YOU_LIKE_TO_CLOSE_CURRENTLY_Yes", "Yes"); // JButton (A, H)
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: PROJECT_CLOSE
+// [GUI Memory]: 106 MB (+939kb) [01:06:55]
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 50 MB. Current time: 10/15/18 1:25:37 AM CST
+// bv (f):  Create Project : addNotify
+dismissDialog("Save Project"); // an (ch)
+// Tcl Message: close_project 
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_ADD
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: create_project HW3_9 D:/PANDA/Study/VE370/HW/HW3_9 -part xc7a35tcpg236-1 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+selectButton("FINISH", "Finish"); // JButton (j, f)
+// 'g' command handler elapsed time: 29 seconds
+dismissDialog("Create Project"); // bv (f)
+dismissDialog("New Project"); // f (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 139 seconds
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "HW3_3"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sources_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sources_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 14 seconds
+dismissDialog("Add Sources"); // c (ch)
+// Tcl Message: close [ open D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sources_1/new/HW3_3.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sources_1/new/HW3_3.v 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 13 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources]", 0, true, false, false, false, true, false); // B (D, ch) - Popup Trigger - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, HW3_3 (HW3_3.v)]", 1, false, false, false, false, true, false); // B (D, ch) - Popup Trigger
+selectMenuItem(PAResourceQtoS.SrcMenu_OPEN_SELECTED_SOURCE_FILES, "Open File"); // ac (ai, ch)
+selectCodeEditor("HW3_3.v", 28, 470); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 25, 467); // cd (w, ch)
+// Elapsed time: 165 seconds
+selectCodeEditor("HW3_3.v", 261, 454); // cd (w, ch)
+// Elapsed time: 43 seconds
+selectCodeEditor("HW3_3.v", 40, 464); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("HW3_3.v", 91, 449); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("HW3_3.v", 106, 439); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 82, 467); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 0, 484, false, false, false, false, true); // cd (w, ch) - Double Click
+typeControlKey(null, null, 'z');
+selectCodeEditor("HW3_3.v", 3, 483); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 88, 464); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("HW3_3.v", 171, 460); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 89, 470); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 177, 466); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 89, 460); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 296, 439); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 191, 486); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 91, 467); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("HW3_3.v", 132, 470); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("HW3_3.v", 94, 444); // cd (w, ch)
+// Elapsed time: 17 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 59 seconds
+selectCodeEditor("HW3_3.v", 20, 490); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 77, 462); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 172, 466); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 102, 482); // cd (w, ch)
+// Elapsed time: 50 seconds
+selectCodeEditor("HW3_3.v", 131, 513); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 146, 488); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 146, 488); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 126, 513); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 53, 452); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 30, 459); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 34, 356); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 175, 235); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // B (D, ch) - Node
+selectButton(PAResourceCommand.PACommandNames_ADD_SOURCES, "Sources_add_sources"); // B (f, ch)
+// Run Command: PAResourceCommand.PACommandNames_ADD_SOURCES
+// c (ch): Add Sources: addNotify
+selectButton("NEXT", "Next >"); // JButton (j, c)
+selectButton(PAResourceQtoS.SrcChooserPanel_CREATE_FILE, "Create File"); // a (C, c)
+// F (c): Create Source File: addNotify
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "HW3_3_TEST"); // X (Q, F)
+setText(PAResourceAtoD.CreateSrcFileDialog_FILE_NAME, "HW3_3_TEST"); // X (Q, F)
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (F)
+// Tcl Command: 'file mkdir D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sim_1/new'
+dismissDialog("Create Source File"); // F (c)
+// Tcl Message: file mkdir D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sim_1/new 
+selectButton("FINISH", "Finish"); // JButton (j, c)
+// 'h' command handler elapsed time: 9 seconds
+// TclEventType: FILE_SET_CHANGE
+dismissDialog("Add Sources"); // c (ch)
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: set_property SOURCE_SET sources_1 [get_filesets sim_1] 
+// Tcl Message: close [ open D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sim_1/new/HW3_3_TEST.v w ] 
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: add_files -fileset sim_1 D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sim_1/new/HW3_3_TEST.v 
+// I (ch): Define Module: addNotify
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (I)
+// TclEventType: FILE_SET_CHANGE
+selectButton("PAResourceAtoD.DefineModulesDialog_YOU_HAVE_MADE_CHANGES_TO_MODULE_Yes", "Yes"); // JButton (A, H)
+dismissDialog("Define Module"); // I (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 42 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4, true); // B (D, ch) - Node
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1]", 4); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_3_TEST (HW3_3_TEST.v)]", 6, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Simulation Sources, sim_1, HW3_3_TEST (HW3_3_TEST.v)]", 6, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectCodeEditor("HW3_3_TEST.v", 25, 459); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+selectCodeEditor("HW3_3_TEST.v", 131, 424); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+// [GUI Memory]: 112 MB (+530kb) [01:19:36]
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectCodeEditor("HW3_3.v", 91, 216); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 74, 238); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 104, 257); // cd (w, ch)
+typeControlKey((HResource) null, "HW3_3.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+selectCodeEditor("HW3_3_TEST.v", 47, 449); // cd (w, ch)
+typeControlKey((HResource) null, "HW3_3_TEST.v", 'v'); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 26, 390); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+selectCodeEditor("HW3_3_TEST.v", 92, 505); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 156, 505); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 155, 483); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+// Elapsed time: 46 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Project Summary", 0); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectCodeEditor("HW3_3.v", 72, 416); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 62, 430); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1); // k (j, ch)
+selectCodeEditor("HW3_3.v", 104, 316); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 259, 303); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 251, 306); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 115, 313); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 132, 309); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 313, 342); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 124, 314); // cd (w, ch)
+// Elapsed time: 95 seconds
+selectCodeEditor("HW3_3.v", 172, 248); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("HW3_3_TEST.v", 104, 432); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 16 seconds
+selectCodeEditor("HW3_3_TEST.v", 3, 450); // cd (w, ch)
+selectTab((HResource) null, "PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 1, false, true); // k (j, ch) - Double Click
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+unmaximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+selectCodeEditor("HW3_3.v", 80, 409); // cd (w, ch)
+typeControlKey((HResource) null, "HW3_3.v", 'c'); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+typeControlKey((HResource) null, "HW3_3_TEST.v", 'v'); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 162, 392); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 246, 381); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 246, 374); // cd (w, ch)
+// Elapsed time: 36 seconds
+selectCodeEditor("HW3_3_TEST.v", 134, 450); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("HW3_3_TEST.v", 160, 452); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 103, 472); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 97, 470); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 94, 467); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 55, 459); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 160, 450); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 184, 477); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_CANCEL, "Cancel"); // a (an)
+dismissDialog("Save Project"); // an (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// an (ch): Save Project: addNotify
+selectButton(PAResourceQtoS.SaveProjectUtils_SAVE, "Save"); // a (an)
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// e (ch):  Run Simulation : addNotify
+dismissDialog("Save Project"); // an (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: FILE_SET_CHANGE
+// [GUI Memory]: 117 MB (+65kb) [01:25:20]
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'HW3_3' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim' 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-99] Step results log file:'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim/xvlog.log' 
+// Tcl Message: ERROR: [USF-XSim-62] 'compile' step failed with error(s). Please check the Tcl console output or 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim/xvlog.log' file for more information. ERROR: [Vivado 12-4473] Detected error while running simulation. Please correct the issue and retry this operation. 
+// Tcl Message: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors. 
+// CommandFailedException: ERROR: [Common 17-69] Command failed: ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  
+// HOptionPane Error: 'ERROR: [Common 17-39] 'launch_simulation' failed due to earlier errors.  (Run Simulation)'
+// 'd' command handler elapsed time: 7 seconds
+selectButton("RDIResource.ProgressDialog_ERROR_ENCOUNTERED_PLEASE_SEE_TCL_OK", "OK"); // JButton (A, G)
+// a (ch): Critical Messages: addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectButton(PAResourceAtoD.CmdMsgDialog_OK, "OK"); // f (a)
+dismissDialog("Critical Messages"); // a (ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// Tcl Message: update_compile_order -fileset sim_1 
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, HW3_3.v]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, HW3_3.v]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("HW3_3.v", 168, 383); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 149, 331); // cd (w, ch)
+// Elapsed time: 46 seconds
+selectCodeEditor("HW3_3.v", 98, 349); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 133, 337); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 118, 345); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 124, 458); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 105, 356); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("HW3_3.v", 63, 353); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 65, 353); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("HW3_3.v", 57, 351); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 75, 349); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 71, 353); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 68, 354); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("HW3_3.v", 66, 351); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 136, 407); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 101, 439); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 126, 466); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 33, 349); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("HW3_3.v", 114, 337); // cd (w, ch)
+// Elapsed time: 28 seconds
+selectCodeEditor("HW3_3.v", 67, 353); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 76, 358); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 72, 355); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 96, 355); // cd (w, ch)
+typeControlKey((HResource) null, "HW3_3.v", 'v'); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 71, 371); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 123, 471); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 183, 515); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 190, 490); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("HW3_3.v", 41, 347); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 183, 378); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 255, 441); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 284, 451); // cd (w, ch)
+// Elapsed time: 58 seconds
+selectCodeEditor("HW3_3.v", 104, 336); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 118, 366); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 172, 385); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 163, 450); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 65, 357); // cd (w, ch)
+// Elapsed time: 47 seconds
+selectCodeEditor("HW3_3.v", 420, 320); // cd (w, ch)
+// Elapsed time: 47 seconds
+selectCodeEditor("HW3_3.v", 72, 356); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 2); // k (j, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Simulation, Run Simulation]", 10, false); // u (O, ch)
+selectMenuItem(PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL, "Run Behavioral Simulation"); // ac (ai, ch)
+// Run Command: PAResourceCommand.PACommandNames_SIMULATION_RUN_BEHAVIORAL
+// e (ch):  Run Simulation : addNotify
+// TclEventType: LAUNCH_SIM
+// TclEventType: FILE_SET_OPTIONS_CHANGE
+// Tcl Message: launch_simulation 
+// Tcl Message: INFO: [Vivado 12-5682] Launching behavioral simulation in 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim' INFO: [SIM-utils-51] Simulation object is 'sim_1' INFO: [SIM-utils-54] Inspecting design source files for 'HW3_3_TEST' in fileset 'sim_1'... INFO: [USF-XSim-97] Finding global include files... INFO: [USF-XSim-98] Fetching design files from 'sim_1'... INFO: [USF-XSim-2] XSim::Compile design INFO: [USF-XSim-61] Executing 'COMPILE and ANALYZE' step in 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim' 
+// TclEventType: LAUNCH_SIM_LOG
+// Tcl Message: "xvlog --incr --relax -prj HW3_3_TEST_vlog.prj" INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sources_1/new/HW3_3.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module HW3_3 INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sim_1/new/HW3_3_TEST.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module HW3_3_TEST INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib INFO: [VRFC 10-311] analyzing module glbl 
+// Tcl Message: INFO: [USF-XSim-69] 'compile' step finished in '1' seconds INFO: [USF-XSim-3] XSim::Elaborate design INFO: [USF-XSim-61] Executing 'ELABORATE' step in 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim' 
+// Tcl Message:  ****** Webtalk v2018.1 (64-bit)   **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018   **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018     ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.  source D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim/xsim.dir/HW3_3_TEST_behav/webtalk/xsim_webtalk.tcl -notrace 
+// TclEventType: LAUNCH_SIM
+// TclEventType: LOAD_FEATURE
+// Tcl Message: INFO: [Common 17-186] 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim/xsim.dir/HW3_3_TEST_behav/webtalk/usage_statistics_ext_xsim.xml' has been successfully sent to Xilinx on Mon Oct 15 01:50:29 2018. For additional details about this file, please refer to the WebTalk help file at C:/Xilinx/Vivado/2018.1/doc/webtalk_introduction.html. INFO: [Common 17-206] Exiting Webtalk at Mon Oct 15 01:50:29 2018... 
+// Tcl Message: INFO: [USF-XSim-69] 'elaborate' step finished in '5' seconds INFO: [USF-XSim-4] XSim::Simulate design INFO: [USF-XSim-61] Executing 'SIMULATE' step in 'D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.sim/sim_1/behav/xsim' INFO: [USF-XSim-98] *** Running xsim 
+// Tcl Message:    with args "HW3_3_TEST_behav -key {Behavioral:sim_1:Functional:HW3_3_TEST} -tclbatch {HW3_3_TEST.tcl} -log {simulate.log}" 
+// Tcl Message: INFO: [USF-XSim-8] Loading simulator feature 
+// Tcl Message: Vivado Simulator 2018.1 
+// TclEventType: SIMULATION_CREATE_SIMULATION_OBJECT
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: WAVEFORM_OPEN_WCFG
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Waveform: addNotify
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// [GUI Memory]: 124 MB (+302kb) [01:31:49]
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: Time resolution is 1 ps 
+// Tcl Message: source HW3_3_TEST.tcl 
+// TclEventType: WAVEFORM_MODEL_EVENT
+// Tcl Message: # set curr_wave [current_wave_config] # if { [string length $curr_wave] == 0 } { #   if { [llength [get_objects]] > 0} { #     add_wave / #     set_property needs_save false [current_wave_config] #   } else { #      send_msg_id Add_Wave-1 WARNING "No top level signals found. Simulator will start without a wave window. If you want to open a wave window go to 'File->New Waveform Configuration' or type 'create_wave_config' in the TCL console." #   } # } 
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 62 MB. Current time: 10/15/18 1:50:31 AM CST
+// TclEventType: WAVEFORM_UPDATE_TITLE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// TclEventType: SIMULATION_CLEAR_CURRENT_LINE
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_OBJECT_TREE_RESTORED
+// TclEventType: WAVEFORM_MODEL_EVENT
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: SIMULATION_UPDATE_LATEST_TIME
+// TclEventType: SIMULATION_CURRENT_SCOPE_CHANGED
+// TclEventType: SIMULATION_CURRENT_STACK_CHANGED
+// TclEventType: SIMULATION_UPDATE_STACK_FRAMES
+// TclEventType: SIMULATION_CURRENT_STACK_FRAME_CHANGED
+// TclEventType: SIMULATION_UPDATE_LOCALS
+// TclEventType: SIMULATION_UPDATE_OBJECT_TREE
+// TclEventType: SIMULATION_UPDATE_SIMULATION_STATE
+// Tcl Message: # run 1000ns 
+// Tcl Message: INFO: [USF-XSim-96] XSim completed. Design snapshot 'HW3_3_TEST_behav' loaded. INFO: [USF-XSim-97] XSim simulation ran for 1000ns 
+// Tcl Message: launch_simulation: Time (s): cpu = 00:00:04 ; elapsed = 00:00:08 . Memory (MB): peak = 922.230 ; gain = 0.000 
+// 'd' command handler elapsed time: 8 seconds
+dismissDialog("Run Simulation"); // e (ch)
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 61 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 60 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 61 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 61 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 61 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 61 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 58 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 60 MB. Current time: 10/15/18 1:50:38 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:39 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:39 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 61 MB. Current time: 10/15/18 1:50:39 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:39 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:39 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:40 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:40 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// HMemoryUtils.trashcanNow. Engine heap size: 756 MB. GUI used memory: 59 MB. Current time: 10/15/18 1:50:41 AM CST
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// TclEventType: WAVEFORM_UPDATE_WAVEFORM
+// TclEventType: WAVEFORM_UPDATE_COMMANDS
+// Elapsed time: 19 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 1); // k (j, ch)
+selectCodeEditor("HW3_3_TEST.v", 129, 467); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 323, 440); // cd (w, ch)
+selectCodeEditor("HW3_3_TEST.v", 166, 464); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 0); // k (j, ch)
+// Elapsed time: 15 seconds
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 1); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 0); // k (j, ch)
+selectCodeEditor("HW3_3.v", 144, 403); // cd (w, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Untitled 1", 2); // k (j, ch)
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3_TEST.v", 1); // k (j, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "HW3_3.v", 0); // k (j, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("HW3_3.v", 24, 403); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 112, 455); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 139, 444); // cd (w, ch)
+// Elapsed time: 49 seconds
+selectCodeEditor("HW3_3.v", 103, 404); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("HW3_3.v", 125, 400); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 152, 478); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 176, 522); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 189, 547); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 199, 446); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 190, 402); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 166, 406); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 156, 567); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 151, 549); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 121, 454); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 102, 427); // cd (w, ch)
+// Elapsed time: 70 seconds
+selectCodeEditor("HW3_3.v", 93, 408); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 115, 490); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("HW3_3.v", 125, 352); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 245, 219); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 261, 365); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 256, 479); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 213, 545); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 181, 511); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 81, 356); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 79, 372); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 116, 402); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 154, 484); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 156, 515); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 160, 537); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 188, 424); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 231, 316); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 255, 216); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 69, 374); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 75, 375); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 127, 535); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 100, 463); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("HW3_3.v", 207, 522); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 199, 547); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 211, 557); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 250, 464); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 233, 316); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 135, 358); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 86, 384); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 87, 366); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 199, 330); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 135, 464); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 137, 512); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("HW3_3.v", 87, 371); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 251, 217); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 65, 430); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("HW3_3.v", 79, 458); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 43, 428); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 118, 523); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 66, 428); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 29, 424); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 111, 429); // cd (w, ch)
+// Elapsed time: 257 seconds
+selectCodeEditor("HW3_3.v", 54, 412); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("HW3_3.v", 142, 407); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 147, 409); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 160, 426); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 160, 454); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 179, 545); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 179, 545, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 54 seconds
+selectCodeEditor("HW3_3.v", 12, 441); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 32, 429); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 244, 430); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 244, 430, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("HW3_3.v", 239, 479); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 239, 479, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("HW3_3.v", 227, 514); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 59, 410); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 202, 424); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 202, 424, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("HW3_3.v", 231, 498); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 243, 587); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 218, 545); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 176, 495); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 118, 527); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 118, 572); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 49, 466); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 97, 592); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 54, 433); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 58, 418); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 58, 409); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 251, 444); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 31, 421); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 31, 421); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 66, 390); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 160, 527); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 174, 575); // cd (w, ch)
+// TclEventType: SIMULATION_ADD_BREAKPOINT
+// Tcl Message: add_bp {D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sources_1/new/HW3_3.v} 34 
+// TclEventType: SIMULATION_DELETE_BREAKPOINT
+// Tcl Message: remove_bps -file {D:/PANDA/Study/VE370/HW/HW3_9/HW3_9.srcs/sources_1/new/HW3_3.v} -line 34 
+selectCodeEditor("HW3_3.v", 5, 432); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 79, 430); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 121, 420); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 88, 427); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 32, 430); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 32, 430); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 46, 430); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 66, 410); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 111, 368); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 116, 336); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 124, 302); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 172, 295); // cd (w, ch)
+// Elapsed time: 191 seconds
+selectCodeEditor("HW3_3.v", 53, 432); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("HW3_3.v", 8, 365); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 203, 369); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 96, 316); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("HW3_3.v", 358, 351); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 277, 369); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 127, 443); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 239, 217); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 338, 269); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 249, 407); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 183, 505); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 141, 509); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 126, 311); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 142, 355); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 112, 468); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 128, 522); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 120, 316); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 156, 323); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 139, 387); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 111, 448); // cd (w, ch)
+selectCodeEditor("HW3_3.v", 98, 484); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED

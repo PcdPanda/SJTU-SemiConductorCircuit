@@ -1,0 +1,6 @@
+* source 2
+D_D1         N00119 N00126 Dbreak 
+V_Vs         N00119 0  AC 1
++SIN 0 5 60 0 0 0
+C_C1         0 N00126  0.000143  TC=0,0 
+R_Vout         0 N00126  5000 TC=0,0 

@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PANDA/Study/VE270/HW/HW5/HW5/HW5.srcs/sources_1/new/Q1.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Q1
+WARNING: [VRFC 10-965] invalid size of integer constant literal [D:/PANDA/Study/VE270/HW/HW5/HW5/HW5.srcs/sources_1/new/Q1.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/PANDA/Study/VE270/HW/HW5/HW5/HW5.srcs/sim_1/new/Q1test.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module Q1test

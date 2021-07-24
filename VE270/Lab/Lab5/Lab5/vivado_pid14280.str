@@ -1,0 +1,389 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 14280
+License: Customer
+
+Current time: 	Sun Jun 24 23:22:46 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 34 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	PANDA
+User home directory: C:/Users/PANDA
+User working directory: D:/PANDA/Study/VE270/Lab/Lab5/Lab5
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/PANDA/Study/VE270/Lab/Lab5/Lab5/vivado.log
+Vivado journal file location: 	D:/PANDA/Study/VE270/Lab/Lab5/Lab5/vivado.jou
+Engine tmp dir: 	D:/PANDA/Study/VE270/Lab/Lab5/Lab5/.Xil/Vivado-14280-DESKTOP-C5CEFDM
+
+GUI allocated memory:	197 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 528 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// bv (ch):  Open Project : addNotify
+// Opening Vivado Project: D:\PANDA\Study\VE270\Lab\Lab5\Lab5\Lab5.xpr. Version: Vivado v2018.1 
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// [GUI Memory]: 62 MB (+62467kb) [00:00:09]
+// [Engine Memory]: 515 MB (+388262kb) [00:00:09]
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_COMPLETED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.xpr 
+// Tcl Message: open_project D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.xpr 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// TclEventType: PROJECT_NEW
+// [GUI Memory]: 100 MB (+36648kb) [00:00:13]
+// [Engine Memory]: 602 MB (+64561kb) [00:00:13]
+// [GUI Memory]: 118 MB (+13302kb) [00:00:14]
+// [Engine Memory]: 646 MB (+14824kb) [00:00:14]
+// HMemoryUtils.trashcanNow. Engine heap size: 664 MB. GUI used memory: 44 MB. Current time: 6/24/18 11:22:52 PM CST
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 862.332 ; gain = 123.957 
+// Project name: Lab5; location: D:/PANDA/Study/VE270/Lab/Lab5/Lab5; part: xc7a35tcpg236-1
+dismissDialog("Open Project"); // bv (ch)
+// [Engine Memory]: 679 MB (+800kb) [00:00:18]
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// Tcl Message: reset_run synth_1 
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Jun 24 23:22:57 2018] Launched synth_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// Tcl Message: update_compile_order -fileset sources_1 
+// TclEventType: RUN_FAILED
+// PAPropertyPanels.initPanels (Lab5.v) elapsed time: 0.2s
+// Elapsed time: 43 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Lab5 (Lab5.v)]", 1, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Lab5 (Lab5.v)]", 1, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Lab5 (Lab5.v)]", 1, false); // B (D, ch)
+selectCodeEditor("Lab5.v", 126, 165); // cd (w, ch)
+selectCodeEditor("Lab5.v", 116, 390); // cd (w, ch)
+selectCodeEditor("Lab5.v", 110, 235); // cd (w, ch)
+selectCodeEditor("Lab5.v", 146, 221); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Jun 24 23:24:02 2018] Launched synth_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sun Jun 24 23:25:13 2018] Launched impl_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/impl_1/runme.log 
+// Elapsed time: 70 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// HMemoryUtils.trashcanNow. Engine heap size: 707 MB. GUI used memory: 45 MB. Current time: 6/24/18 11:26:04 PM CST
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 95 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_GOTO_IMPLEMENTED_DESIGN
+// bv (ch):  Open Implemented Design : addNotify
+// Tcl Message: open_run impl_1 
+// HMemoryUtils.trashcanNow. Engine heap size: 799 MB. GUI used memory: 46 MB. Current time: 6/24/18 11:26:54 PM CST
+// [Engine Memory]: 857 MB (+150916kb) [00:04:19]
+// [Engine Memory]: 1,016 MB (+121628kb) [00:04:24]
+// HMemoryUtils.trashcanNow. Engine heap size: 1,087 MB. GUI used memory: 45 MB. Current time: 6/24/18 11:27:08 PM CST
+// [Engine Memory]: 1,094 MB (+28301kb) [00:04:34]
+// [Engine Memory]: 1,183 MB (+35940kb) [00:04:39]
+// TclEventType: FLOORPLAN_MODIFY
+// TclEventType: DESIGN_NEW
+// HMemoryUtils.trashcanNow. Engine heap size: 1,481 MB. GUI used memory: 46 MB. Current time: 6/24/18 11:27:17 PM CST
+// [Engine Memory]: 1,481 MB (+250327kb) [00:04:41]
+// TclEventType: DESIGN_NEW
+// TclEventType: HFED_INIT_ROUTE_STORAGE_COMPLETED
+// [Engine Memory]: 1,563 MB (+8142kb) [00:04:43]
+// Package: addNotify
+// Device: addNotify
+// DeviceView Instantiated
+// TclEventType: CURR_DESIGN_SET
+// Tcl Message: INFO: [Project 1-479] Netlist was created with Vivado 2018.1 INFO: [Device 21-403] Loading part xc7a35tcpg236-1 INFO: [Project 1-570] Preparing netlist for logic optimization INFO: [Timing 38-478] Restoring timing data from binary archive. INFO: [Timing 38-479] Binary timing data restore complete. INFO: [Project 1-856] Restoring constraints from binary archive. INFO: [Project 1-853] Binary constraint restore complete. 
+// Tcl Message: Reading XDEF placement. Reading placer database... Reading XDEF routing. 
+// Tcl Message: Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.049 . Memory (MB): peak = 1704.891 ; gain = 0.000 
+// Tcl Message: Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB | 
+// Tcl Message: Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.050 . Memory (MB): peak = 1704.891 ; gain = 0.000 
+// Tcl Message: INFO: [Project 1-111] Unisim Transformation Summary: No Unisim elements were transformed.  
+// Tcl Message: open_run: Time (s): cpu = 00:00:35 ; elapsed = 00:00:30 . Memory (MB): peak = 1787.730 ; gain = 884.859 
+// RouteApi: Init Delay Mediator Swing Worker Finished
+// ExpRunCommands.openImplResults elapsed time: 30.7s
+// TclEventType: DRC_ADDED
+// TclEventType: METHODOLOGY_ADDED
+// TclEventType: POWER_UPDATED
+// TclEventType: TIMING_SUMMARY_UPDATED
+// 'dO' command handler elapsed time: 34 seconds
+// Elapsed time: 34 seconds
+dismissDialog("Open Implemented Design"); // bv (ch)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (3) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 2); // G (O, ch)
+// PAPropertyPanels.initPanels (clock) elapsed time: 0.2s
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clock ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 3, "default (LVCMOS18)", 6, false); // G (O, ch)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list clock]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "reset ; IN ;  ;  ;  ;  ; default (LVCMOS18) ; 1.8 ;  ;  ;  ; NONE ; NONE ; ", 4, "default (LVCMOS18)", 6, false); // G (O, ch)
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list reset]] 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; default (LVCMOS18) ; 1.8 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "default (LVCMOS18)", 6, false); // G (O, ch)
+// [GUI Memory]: 124 MB (+556kb) [00:05:09]
+// TclEventType: SIGNAL_MODIFY
+// Tcl Message: set_property IOSTANDARD LVCMOS33 [get_ports [list SSD]] 
+// HMemoryUtils.trashcanNow. Engine heap size: 1,589 MB. GUI used memory: 83 MB. Current time: 6/24/18 11:28:19 PM CST
+// Elapsed time: 36 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "clock ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 3, (String) null, 3, false); // G (O, ch)
+// TclEventType: LOC_CONSTRAINT_ADD
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "reset ; IN ;  ;  ;  ;  ; LVCMOS33 ; 3.3 ;  ;  ;  ; NONE ; NONE ; ", 4, (String) null, 3, false); // G (O, ch)
+// Tcl Message: place_ports clock W5 
+// TclEventType: LOC_CONSTRAINT_ADD
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "P1", 3, false); // G (O, ch)
+// Tcl Message: place_ports reset T17 
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "OUT", 1, false); // G (O, ch)
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5); // G (O, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "OUT", 1, false, false, false, false, false, true); // G (O, ch) - Double Click
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "SSD", 0, false); // G (O, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 5, "SSD", 0, false, false, false, false, false, true); // G (O, ch) - Double Click
+selectTab("PlanAheadTabBaseWorkspace_JideTabbedPane", (HResource) null, "Lab5.v", 2); // k (j, ch)
+// [GUI Memory]: 131 MB (+740kb) [00:06:14]
+// Schematic: addNotify
+// PAPropertyPanels.initPanels (ring) elapsed time: 0.3s
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ring (4) ; OUT ;  ;  ; true ; 34 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "ring (4)", 0, true); // G (O, ch) - Node
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ring (4) ; OUT ;  ;  ; true ; 34 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "ring (4)", 0, true); // G (O, ch) - Node
+expandTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ring (4) ; OUT ;  ;  ; true ; 34 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1); // G (O, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "ring (4) ; OUT ;  ;  ; true ; 34 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 1, "ring (4)", 0, true, false, false, false, false, true); // G (O, ch) - Double Click - Node
+// Elapsed time: 11 seconds
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "P1", 3, false); // G (O, ch)
+selectCodeEditor("Lab5.v", 154, 278); // cd (w, ch)
+selectCodeEditor("Lab5.v", 29, 316); // cd (w, ch)
+selectCodeEditor("Lab5.v", 156, 322); // cd (w, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "Scalar ports (3) ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ;  ; ", 6, "Scalar ports (3)", 0, true); // G (O, ch) - Node
+// Run Command: PAResourceCommand.PACommandNames_SAVE_DESIGN
+// bv (ch):  Save Constraints : addNotify
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DESIGN_SAVE
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// Tcl Message: save_constraints 
+dismissDialog("Save Constraints"); // bv (ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// TclEventType: DG_GRAPH_GENERATED
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Jun 24 23:29:26 2018] Launched synth_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Elapsed time: 62 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sun Jun 24 23:30:29 2018] Launched impl_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/impl_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 86 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Completed"); // ah (ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Lab5.v", 155, 351); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("Lab5.v", 209, 224); // cd (w, ch)
+selectCodeEditor("Lab5.v", 173, 291); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("Lab5.v", 82, 447); // cd (w, ch)
+selectCodeEditor("Lab5.v", 49, 271); // cd (w, ch)
+selectCodeEditor("Lab5.v", 31, 263); // cd (w, ch)
+selectCodeEditor("Lab5.v", 91, 259); // cd (w, ch)
+selectCodeEditor("Lab5.v", 2, 166); // cd (w, ch)
+selectCodeEditor("Lab5.v", 36, 438); // cd (w, ch)
+selectCodeEditor("Lab5.v", 14, 276, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectMenuItem(RDIResourceCommand.RDICommands_CUT, "Cut"); // ac (ai, ch)
+selectCodeEditor("Lab5.v", 31, 408); // cd (w, ch)
+// Elapsed time: 17 seconds
+typeControlKey((HResource) null, "Lab5.v", 'v'); // cd (w, ch)
+selectCodeEditor("Lab5.v", 202, 388); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("Lab5.v", 283, 307); // cd (w, ch)
+selectCodeEditor("Lab5.v", 202, 284); // cd (w, ch)
+selectCodeEditor("Lab5.v", 58, 30); // cd (w, ch)
+selectCodeEditor("Lab5.v", 83, 163); // cd (w, ch)
+selectCodeEditor("Lab5.v", 385, 203); // cd (w, ch)
+selectCodeEditor("Lab5.v", 339, 297); // cd (w, ch)
+selectCodeEditor("Lab5.v", 320, 364); // cd (w, ch)
+selectCodeEditor("Lab5.v", 260, 279); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bv (ch):  Starting Design Runs : addNotify
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// TclEventType: DG_GRAPH_GENERATED
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: [Sun Jun 24 23:33:51 2018] Launched synth_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+selectCodeEditor("Lab5.v", 952, 265); // cd (w, ch)
+// [GUI Memory]: 139 MB (+946kb) [00:11:58]
+// TclEventType: RUN_COMPLETED
+// ah (ch): Synthesis Completed: addNotify
+// Run Command: PAResourceCommand.PACommandNames_RUN_IMPLEMENTATION
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs impl_1 -jobs 4 
+// Tcl Message: [Sun Jun 24 23:34:52 2018] Launched impl_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/impl_1/runme.log 
+// Elapsed time: 54 seconds
+selectButton(RDIResource.BaseDialog_OK, "OK"); // a (ah)
+dismissDialog("Starting Design Runs"); // bv (ch)
+// TclEventType: RUN_STEP_COMPLETED
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_COMPLETED
+// ah (ch): Implementation Completed: addNotify
+// Elapsed time: 82 seconds
+selectButton(RDIResource.BaseDialog_CANCEL, "Cancel"); // a (ah)
+dismissDialog("Implementation Completed"); // ah (ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, ch) - Node
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Implementation, Open Implemented Design]", 18, true); // u (O, ch) - Node
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // be (f, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "OUT", 1, false); // G (O, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "OUT", 1, false, false, false, false, false, true); // G (O, ch) - Double Click
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "P1", 3, false); // G (O, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "SSD", 0, false); // G (O, ch)
+selectTreeTable(PAResourceQtoS.SignalTreePanel_SIGNAL_TREE_TABLE, "SSD ; OUT ;  ; P1 ; false ; 35 ; LVCMOS33 ; 3.3 ;  ; 12 ; SLOW ; NONE ; FP_VTT_50 ; ", 9, "SSD", 0, false, false, false, false, false, true); // G (O, ch) - Double Click
+closeFrame(PAResourceOtoP.PAViews_IO_PORTS, "I/O Ports"); // aw (aE, ch)
+selectComboBox(RDIResource.MainWinToolbarMgr_SELECT_OR_SAVE_WINDOW_LAYOUT, "I/O Planning", 1); // be (f, ch)
+expandTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints]", 2); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LAB5.xdc]", 4, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Constraints, constrs_1, LAB5.xdc]", 4, false, false, false, false, false, true); // B (D, ch) - Double Click
+// Elapsed time: 20 seconds
+selectCodeEditor("LAB5.xdc", 15, 163); // cd (w, ch)
+typeControlKey((HResource) null, "LAB5.xdc", 'v'); // cd (w, ch)
+// TclEventType: FILE_SET_CHANGE
+// Elapsed time: 12 seconds
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
+// bv (ch):  Resetting Runs : addNotify
+// TclEventType: RUN_MODIFY
+// TclEventType: DESIGN_STALE
+// TclEventType: RUN_RESET
+// TclEventType: RUN_MODIFY
+// Tcl Message: reset_run synth_1 
+// bv (ch):  Starting Design Runs : addNotify
+// TclEventType: FILESET_TARGET_UCF_CHANGE
+// TclEventType: RUN_LAUNCH
+// TclEventType: RUN_MODIFY
+// Tcl Message: launch_runs synth_1 -jobs 4 
+// Tcl Message: [Sun Jun 24 23:37:15 2018] Launched synth_1... Run output will be captured here: D:/PANDA/Study/VE270/Lab/Lab5/Lab5/Lab5.runs/synth_1/runme.log 
+dismissDialog("Starting Design Runs"); // bv (ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("LAB5.xdc", 355, 71); // cd (w, ch)
+// [GUI Memory]: 148 MB (+2240kb) [00:15:01]
+selectCodeEditor("LAB5.xdc", 312, 269); // cd (w, ch)
+selectTree(PAResourceEtoH.FlowNavigatorTreePanel_FLOW_NAVIGATOR_TREE, "[, Synthesis, Run Synthesis]", 14, false); // u (O, ch)
+// Run Command: PAResourceCommand.PACommandNames_RUN_SYNTHESIS
