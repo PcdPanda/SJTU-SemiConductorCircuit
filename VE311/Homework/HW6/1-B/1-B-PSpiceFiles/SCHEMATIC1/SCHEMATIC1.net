@@ -1,6 +1,0 @@
-* source 1-B
-M_M2         N00951 N00760 0 0 Mbreakn           
-V_V1         N01218 0 5V
-M_M4         N00951 N00951 N01218 N01218 MbreakP           
-V_V2         N00760 0  
-+SIN 1 1 100 0 0 0

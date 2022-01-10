@@ -1,0 +1,10 @@
+* source D2
+V_VX         N00129 0 0Vdc
+M_M2         N00840 N00243 0 0 Mbreakn  
++ L=2u  
++ W=20u         
+V_V1         N00185 0 2.2
+V_V2         N00243 0 1.2
+M_M3         N00129 N00185 N00840 N00840 MbreakN  
++ L=2u  
++ W=100u         

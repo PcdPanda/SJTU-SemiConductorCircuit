@@ -1,5 +1,0 @@
-* source HW4
-R_R1         N000811 N00159  5k TC=0,0 
-V_V2         N00159 0 3
-Q_Q1         N000811 N00239 0 QbreakN 
-V_V3         N00239 0 0.7

@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"single_cycle_test_func_synth.v" \
+"../../../../../P2 single cycle.srcs/sim_1/new/single_cycle_test.v" \
+
+# Do not sort compile order
+nosort

@@ -1,8 +1,0 @@
-* source TEST PROJECT
-R_R1         N00893 N00225  1k TC=0,0 
-C_C1         N00225  1n  TC=0,0 
-V_V2         N00893 M_UN0001   
-V_V3         N01215 0  
-+PULSE -0.1 0.1 0 0 0 0.00025 0.0005
-R_R2         N01215 N01523  1k TC=0,0 
-C_C2         0 N01523  100n  TC=0,0 

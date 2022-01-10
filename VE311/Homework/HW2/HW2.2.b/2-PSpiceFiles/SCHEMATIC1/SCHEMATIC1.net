@@ -1,9 +1,0 @@
-* source 2
-D_ID2         N00119 N01824 Dbreak 
-V_Vs         N00119 N02700  AC 0
-+SIN 0 5 60 0 0 0
-C_C1         0 N01824  0.000060  TC=0,0 
-R_Vout         0 N01824  5000 TC=0,0 
-D_D2         0 N00119 Dbreak 
-D_D3         0 N02700 Dbreak 
-D_ID3         N02700 N01824 Dbreak 

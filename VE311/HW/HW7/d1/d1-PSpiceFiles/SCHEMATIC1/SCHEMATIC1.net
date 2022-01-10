@@ -1,0 +1,4 @@
+* source D1
+V_VX         N00084 0 0Vdc
+M_M1         N00084 N00440 0 0 MbreakN           
+V_V1         N00440 0 1.2

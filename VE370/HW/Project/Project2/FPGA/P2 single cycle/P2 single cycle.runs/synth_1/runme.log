@@ -1,0 +1,604 @@
+
+*** Running vivado
+    with args -log SingleCycle.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source SingleCycle.tcl
+
+
+****** Vivado v2018.1 (64-bit)
+  **** SW Build 2188600 on Wed Apr  4 18:40:38 MDT 2018
+  **** IP Build 2185939 on Wed Apr  4 20:55:05 MDT 2018
+    ** Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+source SingleCycle.tcl -notrace
+Command: synth_design -top SingleCycle -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: Launching helper process for spawning children vivado processes
+INFO: Helper process launched with PID 19224 
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 359.363 ; gain = 100.184
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'SingleCycle' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:23]
+INFO: [Synth 8-6157] synthesizing module 'clock500' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:386]
+INFO: [Synth 8-6155] done synthesizing module 'clock500' (1#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:386]
+INFO: [Synth 8-6157] synthesizing module 'ring' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:402]
+INFO: [Synth 8-6155] done synthesizing module 'ring' (2#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:402]
+INFO: [Synth 8-6157] synthesizing module 'IF' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:89]
+INFO: [Synth 8-6155] done synthesizing module 'IF' (3#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:89]
+INFO: [Synth 8-6157] synthesizing module 'ID' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:128]
+INFO: [Synth 8-6157] synthesizing module 'control' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:201]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:220]
+INFO: [Synth 8-6155] done synthesizing module 'control' (4#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:201]
+INFO: [Synth 8-6157] synthesizing module 'register' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:321]
+	Parameter num bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'register' (5#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:321]
+INFO: [Synth 8-6155] done synthesizing module 'ID' (6#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:128]
+INFO: [Synth 8-6157] synthesizing module 'EX' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:145]
+INFO: [Synth 8-6157] synthesizing module 'ALU_control' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:336]
+INFO: [Synth 8-6155] done synthesizing module 'ALU_control' (7#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:336]
+INFO: [Synth 8-6157] synthesizing module 'ALU' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:362]
+INFO: [Synth 8-6155] done synthesizing module 'ALU' (8#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:362]
+INFO: [Synth 8-6155] done synthesizing module 'EX' (9#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:145]
+INFO: [Synth 8-6157] synthesizing module 'MEM' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:158]
+	Parameter num bound to: 32 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'MEM' (10#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:158]
+INFO: [Synth 8-6157] synthesizing module 'WB' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:173]
+INFO: [Synth 8-6155] done synthesizing module 'WB' (11#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:173]
+INFO: [Synth 8-6157] synthesizing module 'Display' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:52]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:62]
+WARNING: [Synth 8-567] referenced signal 'OUT' should be on the sensitivity list [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:61]
+INFO: [Synth 8-6155] done synthesizing module 'Display' (12#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:52]
+INFO: [Synth 8-6155] done synthesizing module 'SingleCycle' (13#1) [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:23]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[31]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[30]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[29]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[28]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[27]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[26]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[25]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[24]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[23]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[22]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[21]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[20]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[19]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[18]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[17]
+WARNING: [Synth 8-3331] design Display has unconnected port currentPC[16]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[31]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[30]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[29]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[28]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[27]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[26]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[25]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[24]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[23]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[22]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[21]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[20]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[19]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[18]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[17]
+WARNING: [Synth 8-3331] design Display has unconnected port Data[16]
+WARNING: [Synth 8-3331] design WB has unconnected port instruction[31]
+WARNING: [Synth 8-3331] design WB has unconnected port instruction[30]
+WARNING: [Synth 8-3331] design WB has unconnected port instruction[29]
+WARNING: [Synth 8-3331] design WB has unconnected port instruction[28]
+WARNING: [Synth 8-3331] design WB has unconnected port instruction[27]
+WARNING: [Synth 8-3331] design WB has unconnected port instruction[26]
+WARNING: [Synth 8-3331] design WB has unconnected port RegWrite
+WARNING: [Synth 8-3331] design WB has unconnected port WriteRegister[4]
+WARNING: [Synth 8-3331] design WB has unconnected port WriteRegister[3]
+WARNING: [Synth 8-3331] design WB has unconnected port WriteRegister[2]
+WARNING: [Synth 8-3331] design WB has unconnected port WriteRegister[1]
+WARNING: [Synth 8-3331] design WB has unconnected port WriteRegister[0]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[31]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[30]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[29]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[28]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[27]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[26]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[25]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[24]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[23]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[22]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[21]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[20]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[19]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[18]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[17]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[16]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[15]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[14]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[13]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[12]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[11]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[10]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[9]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[8]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[7]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[6]
+WARNING: [Synth 8-3331] design MEM has unconnected port Address[5]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 413.395 ; gain = 154.215
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 413.395 ; gain = 154.215
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 413.395 ; gain = 154.215
+---------------------------------------------------------------------------------
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/constrs_1/new/single cycle.xdc]
+WARNING: [Vivado 12-507] No nets matched 'clk_IBUF'. [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/constrs_1/new/single cycle.xdc:39]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/constrs_1/new/single cycle.xdc:39]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+Finished Parsing XDC File [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/constrs_1/new/single cycle.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/constrs_1/new/single cycle.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/SingleCycle_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/SingleCycle_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.004 . Memory (MB): peak = 740.336 ; gain = 0.000
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 740.336 ; gain = 481.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 740.336 ; gain = 481.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 740.336 ; gain = 481.156
+---------------------------------------------------------------------------------
+INFO: [Synth 8-5546] ROM "memory" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "RegDst" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "BranchT" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5546] ROM "ALUcontrol" won't be mapped to RAM because it is too sparse
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:374]
+INFO: [Synth 8-5544] ROM "ALUresult" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "code" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+WARNING: [Synth 8-327] inferring latch for variable 'RegDst_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:222]
+WARNING: [Synth 8-327] inferring latch for variable 'BranchT_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:223]
+WARNING: [Synth 8-327] inferring latch for variable 'BranchF_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:224]
+WARNING: [Synth 8-327] inferring latch for variable 'MemRead_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:225]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUop_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:231]
+WARNING: [Synth 8-327] inferring latch for variable 'MemWrite_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:227]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUsrc_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:228]
+WARNING: [Synth 8-327] inferring latch for variable 'RegWrite_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:229]
+WARNING: [Synth 8-327] inferring latch for variable 'Jump_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:230]
+WARNING: [Synth 8-327] inferring latch for variable 'ALUresult_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:375]
+WARNING: [Synth 8-327] inferring latch for variable 'code_reg' [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:63]
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 740.336 ; gain = 481.156
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 2     
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
+	                4 Bit    Registers := 1     
+	                1 Bit    Registers := 1     
++---Muxes : 
+	  31 Input     32 Bit        Muxes := 1     
+	   7 Input     32 Bit        Muxes := 2     
+	   6 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 5     
+	   2 Input     16 Bit        Muxes := 1     
+	   2 Input      5 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   9 Input      3 Bit        Muxes := 1     
+	  11 Input      3 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 2     
+	   9 Input      1 Bit        Muxes := 9     
+	   7 Input      1 Bit        Muxes := 2     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Hierarchical Component Statistics 
+---------------------------------------------------------------------------------
+Hierarchical RTL Component report 
+Module clock500 
+Detailed RTL Component Info : 
++---Registers : 
+	                1 Bit    Registers := 1     
+Module ring 
+Detailed RTL Component Info : 
++---Registers : 
+	                4 Bit    Registers := 1     
+Module IF 
+Detailed RTL Component Info : 
++---Muxes : 
+	  31 Input     32 Bit        Muxes := 1     
+Module control 
+Detailed RTL Component Info : 
++---Muxes : 
+	   9 Input      3 Bit        Muxes := 1     
+	   9 Input      1 Bit        Muxes := 9     
+Module ID 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input      5 Bit        Muxes := 1     
+Module ALU_control 
+Detailed RTL Component Info : 
++---Muxes : 
+	  11 Input      3 Bit        Muxes := 1     
+Module ALU 
+Detailed RTL Component Info : 
++---Adders : 
+	   3 Input     32 Bit       Adders := 1     
++---Muxes : 
+	   7 Input     32 Bit        Muxes := 1     
+	   6 Input     32 Bit        Muxes := 1     
+	   7 Input      3 Bit        Muxes := 1     
+	   7 Input      1 Bit        Muxes := 1     
+Module EX 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module MEM 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 1     
+Module WB 
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input     32 Bit       Adders := 1     
++---Registers : 
+	               32 Bit    Registers := 2     
++---Muxes : 
+	   2 Input     32 Bit        Muxes := 3     
+Module Display 
+Detailed RTL Component Info : 
++---Muxes : 
+	   2 Input     16 Bit        Muxes := 1     
+	   5 Input      4 Bit        Muxes := 1     
+	   5 Input      1 Bit        Muxes := 1     
+---------------------------------------------------------------------------------
+Finished RTL Hierarchical Component Statistics
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+Warning: Parallel synthesis criteria is not met 
+WARNING: [Synth 8-3936] Found unconnected internal register 'WB/currentPC_reg' and it is trimmed from '32' to '16' bits. [D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:196]
+INFO: [Synth 8-3886] merging instance 'WB/nextPC_reg[0]' (FD_1) to 'WB/currentPC_reg[0]'
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ID/control/BranchF_reg )
+WARNING: [Synth 8-3332] Sequential element (ID/control/BranchF_reg) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[31]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[30]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[29]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[28]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[27]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[26]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[25]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[24]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[23]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[22]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[21]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[20]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[19]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[18]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[17]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[16]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[15]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[14]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[13]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[12]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[11]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[10]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[9]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[8]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[7]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[6]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[5]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[4]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[3]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[2]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[1]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/ALU/ALUresult_reg[0]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[31]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[30]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[29]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[28]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[27]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[26]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[25]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[24]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[23]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[22]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[21]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[20]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[19]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[18]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[17]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (WB/nextPC_reg[16]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[31]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[30]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[29]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[28]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[27]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[26]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[25]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[24]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[23]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[22]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[21]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[20]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[19]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[18]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[17]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[16]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[15]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[14]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[13]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[12]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[11]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[10]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[9]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[8]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[7]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[6]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[5]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[4]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[3]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[2]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[1]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (EX/ALU/ALUresult_reg[0]) is unused and will be removed from module SingleCycle.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 740.336 ; gain = 481.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Preliminary Mapping  Report (see note below)
++------------+----------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object           | Inference | Size (Depth x Width) | Primitives      | 
++------------+----------------------+-----------+----------------------+-----------------+
+|SingleCycle | MEM/mem_reg          | Implied   | 32 x 32              | RAM32X1S x 32   | 
+|SingleCycle | ID/register/Data_reg | Implied   | 32 x 32              | RAM32M x 18     | 
++------------+----------------------+-----------+----------------------+-----------------+
+
+Note: The table above is a preliminary report that shows the Distributed RAMs at the current stage of the synthesis flow. Some Distributed RAMs may be reimplemented as non Distributed RAM primitives later in the synthesis flow. Multiple instantiated RAMs are reported only once.
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 740.336 ; gain = 481.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 740.336 ; gain = 481.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Distributed RAM: Final Mapping  Report
++------------+----------------------+-----------+----------------------+-----------------+
+|Module Name | RTL Object           | Inference | Size (Depth x Width) | Primitives      | 
++------------+----------------------+-----------+----------------------+-----------------+
+|SingleCycle | MEM/mem_reg          | Implied   | 32 x 32              | RAM32X1S x 32   | 
+|SingleCycle | ID/register/Data_reg | Implied   | 32 x 32              | RAM32M x 18     | 
++------------+----------------------+-----------+----------------------+-----------------+
+
+---------------------------------------------------------------------------------
+Finished ROM, RAM, DSP and Shift Register Reporting
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-3332] Sequential element (WB/currentPC_reg[0]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/RegDst_reg) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/BranchT_reg) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/MemRead_reg) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/ALUop_reg[2]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/ALUop_reg[1]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/ALUop_reg[0]) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/MemWrite_reg) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/ALUsrc_reg) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/RegWrite_reg) is unused and will be removed from module SingleCycle.
+WARNING: [Synth 8-3332] Sequential element (ID/control/Jump_reg) is unused and will be removed from module SingleCycle.
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+
+Report Check Netlist: 
++------+------------------+-------+---------+-------+------------------+
+|      |Item              |Errors |Warnings |Status |Description       |
++------+------------------+-------+---------+-------+------------------+
+|1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
++------+------------------+-------+---------+-------+------------------+
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+
+Report RTL Partitions: 
++-+--------------+------------+----------+
+| |RTL Partition |Replication |Instances |
++-+--------------+------------+----------+
++-+--------------+------------+----------+
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+---------+------+
+|      |Cell     |Count |
++------+---------+------+
+|1     |BUFG     |     2|
+|2     |CARRY4   |    25|
+|3     |LUT1     |     2|
+|4     |LUT2     |     1|
+|5     |LUT3     |    61|
+|6     |LUT4     |    37|
+|7     |LUT5     |    93|
+|8     |LUT6     |    88|
+|9     |RAM32M   |    15|
+|10    |RAM32X1S |    32|
+|11    |FDRE     |    53|
+|12    |LD       |     4|
+|13    |IBUF     |     8|
+|14    |OBUF     |    11|
++------+---------+------+
+
+Report Instance Areas: 
++------+-----------------+---------+------+
+|      |Instance         |Module   |Cells |
++------+-----------------+---------+------+
+|1     |top              |         |   432|
+|2     |  MEM            |MEM      |    32|
+|3     |  EX             |EX       |    12|
+|4     |    ALU          |ALU_0    |    12|
+|5     |  Display        |Display  |    11|
+|6     |  ID             |ID       |    66|
+|7     |    control      |control  |     4|
+|8     |    register     |register |    62|
+|9     |  WB             |WB       |   251|
+|10    |    ALU          |ALU      |    44|
+|11    |  nolabel_line28 |clock500 |    31|
+|12    |  nolabel_line29 |ring     |     7|
++------+-----------------+---------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 104 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:19 ; elapsed = 00:00:27 . Memory (MB): peak = 757.008 ; gain = 170.887
+Synthesis Optimization Complete : Time (s): cpu = 00:00:33 ; elapsed = 00:00:36 . Memory (MB): peak = 757.008 ; gain = 497.828
+INFO: [Project 1-571] Translating synthesized netlist
+INFO: [Netlist 29-17] Analyzing 84 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 1 inverter(s) to 32 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 51 instances were transformed.
+  LD => LDCE: 4 instances
+  RAM32M => RAM32M (RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMD32, RAMS32, RAMS32): 15 instances
+  RAM32X1S => RAM32X1S (inverted pins: WCLK) (RAMS32): 32 instances
+
+INFO: [Common 17-83] Releasing license: Synthesis
+49 Infos, 177 Warnings, 1 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:34 ; elapsed = 00:00:39 . Memory (MB): peak = 761.730 ; gain = 515.699
+INFO: [Common 17-1381] The checkpoint 'D:/PANDA/Study/VE370/Project/Project2/FPGA/P2 single cycle/P2 single cycle.runs/synth_1/SingleCycle.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file SingleCycle_utilization_synth.rpt -pb SingleCycle_utilization_synth.pb
+report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.026 . Memory (MB): peak = 761.730 ; gain = 0.000
+INFO: [Common 17-206] Exiting Vivado at Sun Nov 18 17:47:06 2018...

@@ -1,4 +1,0 @@
-* source 2
-D_D1         N00119 N00126 Dbreak 
-R_Vout         0 N00126  1k TC=0,0 
-V_V1         N00119 0 0Vdc

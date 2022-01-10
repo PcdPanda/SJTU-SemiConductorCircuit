@@ -1,0 +1,1640 @@
+/*
+
+Xilinx Vivado v2018.1 (64-bit) [Major: 2018, Minor: 1]
+SW Build: 2188600 on Wed Apr  4 18:40:38 MDT 2018
+IP Build: 2185939 on Wed Apr  4 20:55:05 MDT 2018
+
+Process ID: 9588
+License: Customer
+
+Current time: 	Mon Nov 12 15:17:11 CST 2018
+Time zone: 	China Standard Time (Asia/Shanghai)
+
+OS: Windows 10
+OS Version: 10.0
+OS Architecture: amd64
+Available processors (cores): 8
+
+Screen size: 1920x1080
+Screen resolution (DPI): 96
+Available screens: 1
+Available disk space: 21 GB
+Default font: family=Dialog,name=Dialog,style=plain,size=12
+
+Java version: 	1.8.0_112 64-bit
+Java home: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre
+Java executable location: 	C:/Xilinx/Vivado/2018.1/tps/win64/jre/bin/java.exe
+Java initial memory (-Xms): 	128 MB
+Java maximum memory (-Xmx):	 2 GB
+
+
+User name: 	PANDA
+User home directory: C:/Users/PANDA
+User working directory: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle
+User country: 	CN
+User language: 	zh
+User locale: 	zh_CN
+
+RDI_BASEROOT: C:/Xilinx/Vivado
+HDI_APPROOT: C:/Xilinx/Vivado/2018.1
+RDI_DATADIR: C:/Xilinx/Vivado/2018.1/data
+RDI_BINDIR: C:/Xilinx/Vivado/2018.1/bin
+
+Vivado preferences file location: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/vivado.xml
+Vivado preferences directory: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/
+Vivado layouts directory: C:/Users/PANDA/AppData/Roaming/Xilinx/Vivado/2018.1/layouts
+PlanAhead jar file location: 	C:/Xilinx/Vivado/2018.1/lib/classes/planAhead.jar
+Vivado log file location: 	D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/vivado.log
+Vivado journal file location: 	D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/vivado.jou
+Engine tmp dir: 	D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/.Xil/Vivado-9588-DESKTOP-C5CEFDM
+
+GUI allocated memory:	203 MB
+GUI max memory:		3,052 MB
+Engine allocated memory: 566 MB
+
+Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
+
+*/
+
+// TclEventType: START_GUI
+// Tcl Message: start_gui 
+// TclEventType: PROJECT_OPEN_DIALOG
+// Opening Vivado Project: D:\PANDA\Study\VE370\Project\Project2\P2 single cycle\P2 single cycle.xpr. Version: Vivado v2018.1 
+// bv (ch):  Open Project : addNotify
+// [GUI Memory]: 82 MB (+83469kb) [00:00:09]
+// [Engine Memory]: 543 MB (+417393kb) [00:00:09]
+// TclEventType: DEBUG_PROBE_SET_CHANGE
+// Tcl Message: open_project {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.xpr} 
+// TclEventType: MSGMGR_MOVEMSG
+// TclEventType: FILE_SET_NEW
+// TclEventType: RUN_CURRENT
+// TclEventType: PROJECT_NEW
+// Tcl Message: open_project {D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.xpr} 
+// Tcl Message: Scanning sources... Finished scanning sources 
+// Tcl Message: INFO: [IP_Flow 19-234] Refreshing IP repositories INFO: [IP_Flow 19-1704] No user IP repositories specified 
+// Tcl Message: INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.1/data/ip'. 
+// HMemoryUtils.trashcanNow. Engine heap size: 586 MB. GUI used memory: 38 MB. Current time: 11/12/18 3:17:13 PM CST
+// TclEventType: PROJECT_NEW
+// [Engine Memory]: 592 MB (+23148kb) [00:00:15]
+// Project name: P2 single cycle; location: D:/PANDA/Study/VE370/Project/Project2/P2 single cycle; part: xc7a35tcpg236-1
+// [Engine Memory]: 629 MB (+7877kb) [00:00:17]
+// Tcl Message: open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:07 . Memory (MB): peak = 820.027 ; gain = 64.875 
+dismissDialog("Open Project"); // bv (ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Tcl Message: update_compile_order -fileset sources_1 
+// PAPropertyPanels.initPanels (single cycle.v) elapsed time: 0.3s
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, single_cycle (single cycle.v)]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, single_cycle (single cycle.v)]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, single_cycle (single cycle.v)]", 1, true); // B (D, ch) - Node
+selectCodeEditor("single cycle.v", 171, 225); // cd (w, ch)
+selectCodeEditor("single cycle.v", 128, 219); // cd (w, ch)
+selectCodeEditor("single cycle.v", 44, 314); // cd (w, ch)
+selectCodeEditor("single cycle.v", 122, 283); // cd (w, ch)
+selectCodeEditor("single cycle.v", 71, 338); // cd (w, ch)
+selectCodeEditor("single cycle.v", 127, 220); // cd (w, ch)
+selectCodeEditor("single cycle.v", 384, 337); // cd (w, ch)
+selectCodeEditor("single cycle.v", 172, 233); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("single cycle.v", 135, 305); // cd (w, ch)
+selectCodeEditor("single cycle.v", 182, 359); // cd (w, ch)
+selectCodeEditor("single cycle.v", 164, 359); // cd (w, ch)
+selectCodeEditor("single cycle.v", 95, 350); // cd (w, ch)
+selectCodeEditor("single cycle.v", 95, 351); // cd (w, ch)
+selectCodeEditor("single cycle.v", 137, 352); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 137, 350); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 116, 349); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 209, 348); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 330, 383); // cd (w, ch)
+selectCodeEditor("single cycle.v", 389, 427); // cd (w, ch)
+selectCodeEditor("single cycle.v", 445, 487); // cd (w, ch)
+selectCodeEditor("single cycle.v", 191, 385); // cd (w, ch)
+selectCodeEditor("single cycle.v", 105, 366); // cd (w, ch)
+selectCodeEditor("single cycle.v", 33, 351); // cd (w, ch)
+selectCodeEditor("single cycle.v", 27, 350); // cd (w, ch)
+selectCodeEditor("single cycle.v", 125, 360); // cd (w, ch)
+selectCodeEditor("single cycle.v", 160, 311); // cd (w, ch)
+selectCodeEditor("single cycle.v", 443, 270); // cd (w, ch)
+selectCodeEditor("single cycle.v", 367, 254); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 496, 243); // cd (w, ch)
+selectCodeEditor("single cycle.v", 443, 382); // cd (w, ch)
+selectCodeEditor("single cycle.v", 389, 476); // cd (w, ch)
+selectCodeEditor("single cycle.v", 378, 519); // cd (w, ch)
+selectCodeEditor("single cycle.v", 379, 351); // cd (w, ch)
+selectCodeEditor("single cycle.v", 404, 342); // cd (w, ch)
+selectCodeEditor("single cycle.v", 310, 387); // cd (w, ch)
+selectCodeEditor("single cycle.v", 29, 373); // cd (w, ch)
+// Elapsed time: 78 seconds
+selectCodeEditor("single cycle.v", 49, 276); // cd (w, ch)
+selectCodeEditor("single cycle.v", 315, 372); // cd (w, ch)
+selectCodeEditor("single cycle.v", 226, 356); // cd (w, ch)
+selectCodeEditor("single cycle.v", 378, 352); // cd (w, ch)
+selectCodeEditor("single cycle.v", 169, 309); // cd (w, ch)
+selectCodeEditor("single cycle.v", 152, 249); // cd (w, ch)
+selectCodeEditor("single cycle.v", 313, 379); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 268, 372); // cd (w, ch)
+selectCodeEditor("single cycle.v", 268, 372); // cd (w, ch)
+selectCodeEditor("single cycle.v", 420, 383); // cd (w, ch)
+selectCodeEditor("single cycle.v", 226, 389); // cd (w, ch)
+selectCodeEditor("single cycle.v", 89, 278); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 42, 389); // cd (w, ch)
+selectCodeEditor("single cycle.v", 117, 383); // cd (w, ch)
+selectCodeEditor("single cycle.v", 48, 389); // cd (w, ch)
+selectCodeEditor("single cycle.v", 79, 401); // cd (w, ch)
+selectCodeEditor("single cycle.v", 135, 412); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 202, 373); // cd (w, ch)
+selectCodeEditor("single cycle.v", 293, 369); // cd (w, ch)
+selectCodeEditor("single cycle.v", 305, 372); // cd (w, ch)
+selectCodeEditor("single cycle.v", 417, 367); // cd (w, ch)
+selectCodeEditor("single cycle.v", 413, 366); // cd (w, ch)
+selectCodeEditor("single cycle.v", 406, 210); // cd (w, ch)
+selectCodeEditor("single cycle.v", 626, 329); // cd (w, ch)
+selectCodeEditor("single cycle.v", 631, 382); // cd (w, ch)
+selectCodeEditor("single cycle.v", 626, 389); // cd (w, ch)
+selectCodeEditor("single cycle.v", 674, 477); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 186, 372); // cd (w, ch)
+selectCodeEditor("single cycle.v", 234, 365); // cd (w, ch)
+selectCodeEditor("single cycle.v", 488, 357); // cd (w, ch)
+selectCodeEditor("single cycle.v", 529, 409); // cd (w, ch)
+selectCodeEditor("single cycle.v", 547, 444); // cd (w, ch)
+selectCodeEditor("single cycle.v", 549, 455); // cd (w, ch)
+selectCodeEditor("single cycle.v", 549, 455, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 362, 368); // cd (w, ch)
+selectCodeEditor("single cycle.v", 187, 274); // cd (w, ch)
+selectCodeEditor("single cycle.v", 11, 339); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 181, 278); // cd (w, ch)
+selectCodeEditor("single cycle.v", 263, 459); // cd (w, ch)
+selectCodeEditor("single cycle.v", 151, 438); // cd (w, ch)
+selectCodeEditor("single cycle.v", 331, 408); // cd (w, ch)
+selectCodeEditor("single cycle.v", 398, 391); // cd (w, ch)
+selectCodeEditor("single cycle.v", 158, 380); // cd (w, ch)
+selectCodeEditor("single cycle.v", 137, 280); // cd (w, ch)
+selectCodeEditor("single cycle.v", 157, 332); // cd (w, ch)
+selectCodeEditor("single cycle.v", 482, 343); // cd (w, ch)
+selectCodeEditor("single cycle.v", 146, 349); // cd (w, ch)
+selectCodeEditor("single cycle.v", 406, 394); // cd (w, ch)
+selectCodeEditor("single cycle.v", 421, 363); // cd (w, ch)
+selectCodeEditor("single cycle.v", 420, 371); // cd (w, ch)
+selectCodeEditor("single cycle.v", 345, 505); // cd (w, ch)
+selectCodeEditor("single cycle.v", 579, 497); // cd (w, ch)
+selectCodeEditor("single cycle.v", 473, 395); // cd (w, ch)
+selectCodeEditor("single cycle.v", 473, 395, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 474, 394); // cd (w, ch)
+selectCodeEditor("single cycle.v", 479, 394); // cd (w, ch)
+selectCodeEditor("single cycle.v", 487, 394); // cd (w, ch)
+selectCodeEditor("single cycle.v", 165, 387); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 653 MB. GUI used memory: 43 MB. Current time: 11/12/18 3:22:03 PM CST
+selectCodeEditor("single cycle.v", 111, 316); // cd (w, ch)
+selectCodeEditor("single cycle.v", 385, 331); // cd (w, ch)
+selectCodeEditor("single cycle.v", 247, 382); // cd (w, ch)
+selectCodeEditor("single cycle.v", 81, 383); // cd (w, ch)
+selectCodeEditor("single cycle.v", 48, 369); // cd (w, ch)
+selectCodeEditor("single cycle.v", 207, 363); // cd (w, ch)
+selectCodeEditor("single cycle.v", 456, 394); // cd (w, ch)
+selectCodeEditor("single cycle.v", 488, 358); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 33 seconds
+selectCodeEditor("single cycle.v", 586, 330); // cd (w, ch)
+selectCodeEditor("single cycle.v", 604, 328); // cd (w, ch)
+selectCodeEditor("single cycle.v", 507, 309); // cd (w, ch)
+selectCodeEditor("single cycle.v", 109, 313); // cd (w, ch)
+selectCodeEditor("single cycle.v", 147, 326); // cd (w, ch)
+selectCodeEditor("single cycle.v", 161, 242); // cd (w, ch)
+selectCodeEditor("single cycle.v", 207, 255); // cd (w, ch)
+selectCodeEditor("single cycle.v", 215, 445); // cd (w, ch)
+selectCodeEditor("single cycle.v", 146, 351); // cd (w, ch)
+selectCodeEditor("single cycle.v", 490, 401); // cd (w, ch)
+// Elapsed time: 72 seconds
+selectCodeEditor("single cycle.v", 561, 310); // cd (w, ch)
+// Elapsed time: 10 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 62, 337); // cd (w, ch)
+selectCodeEditor("single cycle.v", 596, 295); // cd (w, ch)
+// [GUI Memory]: 87 MB (+565kb) [00:08:11]
+// Elapsed time: 26 seconds
+selectCodeEditor("single cycle.v", 58, 129); // cd (w, ch)
+selectCodeEditor("single cycle.v", 241, 121); // cd (w, ch)
+selectCodeEditor("single cycle.v", 44, 216); // cd (w, ch)
+selectCodeEditor("single cycle.v", 134, 216); // cd (w, ch)
+selectCodeEditor("single cycle.v", 389, 265); // cd (w, ch)
+selectCodeEditor("single cycle.v", 344, 249); // cd (w, ch)
+selectCodeEditor("single cycle.v", 286, 255); // cd (w, ch)
+selectCodeEditor("single cycle.v", 290, 255, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 294, 319); // cd (w, ch)
+selectCodeEditor("single cycle.v", 274, 381); // cd (w, ch)
+selectCodeEditor("single cycle.v", 253, 217); // cd (w, ch)
+selectCodeEditor("single cycle.v", 229, 226); // cd (w, ch)
+selectCodeEditor("single cycle.v", 198, 221); // cd (w, ch)
+selectCodeEditor("single cycle.v", 481, 149); // cd (w, ch)
+selectCodeEditor("single cycle.v", 478, 173); // cd (w, ch)
+selectCodeEditor("single cycle.v", 478, 165); // cd (w, ch)
+selectCodeEditor("single cycle.v", 83, 172); // cd (w, ch)
+selectCodeEditor("single cycle.v", 264, 139); // cd (w, ch)
+selectCodeEditor("single cycle.v", 529, 151); // cd (w, ch)
+selectCodeEditor("single cycle.v", 412, 199); // cd (w, ch)
+selectCodeEditor("single cycle.v", 181, 234); // cd (w, ch)
+selectCodeEditor("single cycle.v", 258, 357); // cd (w, ch)
+selectCodeEditor("single cycle.v", 75, 105); // cd (w, ch)
+selectCodeEditor("single cycle.v", 42, 379); // cd (w, ch)
+selectCodeEditor("single cycle.v", 5, 374); // cd (w, ch)
+selectCodeEditor("single cycle.v", 110, 521); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 76, 448); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 279, 95); // cd (w, ch)
+selectCodeEditor("single cycle.v", 506, 214); // cd (w, ch)
+// Elapsed time: 35 seconds
+selectCodeEditor("single cycle.v", 45, 126); // cd (w, ch)
+selectCodeEditor("single cycle.v", 265, 212); // cd (w, ch)
+selectCodeEditor("single cycle.v", 276, 243); // cd (w, ch)
+selectCodeEditor("single cycle.v", 47, 145); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("single cycle.v", 96, 478); // cd (w, ch)
+selectCodeEditor("single cycle.v", 130, 472); // cd (w, ch)
+selectCodeEditor("single cycle.v", 184, 481); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 184, 481); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 113, 25); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 105, 106); // cd (w, ch)
+selectCodeEditor("single cycle.v", 95, 41); // cd (w, ch)
+selectCodeEditor("single cycle.v", 101, 27); // cd (w, ch)
+selectCodeEditor("single cycle.v", 66, 319); // cd (w, ch)
+selectCodeEditor("single cycle.v", 91, 444); // cd (w, ch)
+selectCodeEditor("single cycle.v", 166, 469); // cd (w, ch)
+// [GUI Memory]: 96 MB (+4768kb) [00:12:47]
+// Elapsed time: 56 seconds
+selectCodeEditor("single cycle.v", 264, 487); // cd (w, ch)
+selectCodeEditor("single cycle.v", 158, 477); // cd (w, ch)
+selectCodeEditor("single cycle.v", 140, 483); // cd (w, ch)
+selectCodeEditor("single cycle.v", 152, 483); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 174, 464); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 100, 500); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 223, 505); // cd (w, ch)
+selectCodeEditor("single cycle.v", 418, 454); // cd (w, ch)
+selectCodeEditor("single cycle.v", 421, 469); // cd (w, ch)
+selectCodeEditor("single cycle.v", 421, 469); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 464); // cd (w, ch)
+selectCodeEditor("single cycle.v", 60, 486, false, true, false, false, false); // cd (w, ch) - Control Key
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 79, 469); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 66, 464); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 479); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("single cycle.v", 219, 488); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("single cycle.v", 219, 488); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("single cycle.v", 240, 425); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("single cycle.v", 98, 529); // cd (w, ch)
+// [Engine Memory]: 662 MB (+1565kb) [00:15:10]
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 156, 508); // cd (w, ch)
+selectCodeEditor("single cycle.v", 178, 525); // cd (w, ch)
+selectCodeEditor("single cycle.v", 210, 522); // cd (w, ch)
+selectCodeEditor("single cycle.v", 259, 494); // cd (w, ch)
+selectCodeEditor("single cycle.v", 174, 450); // cd (w, ch)
+selectCodeEditor("single cycle.v", 152, 446); // cd (w, ch)
+selectCodeEditor("single cycle.v", 61, 467); // cd (w, ch)
+selectCodeEditor("single cycle.v", 41, 447); // cd (w, ch)
+selectCodeEditor("single cycle.v", 163, 423); // cd (w, ch)
+selectCodeEditor("single cycle.v", 311, 438); // cd (w, ch)
+selectCodeEditor("single cycle.v", 311, 438, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 311, 438); // cd (w, ch)
+selectCodeEditor("single cycle.v", 237, 478); // cd (w, ch)
+selectCodeEditor("single cycle.v", 77, 427); // cd (w, ch)
+selectCodeEditor("single cycle.v", 256, 430); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 102, 394); // cd (w, ch)
+selectCodeEditor("single cycle.v", 54, 418); // cd (w, ch)
+selectCodeEditor("single cycle.v", 47, 411); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 14 seconds
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "for", true); // l (aP, ch)
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_GRAPH_STALE
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "for"); // l (aP, ch)
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("single cycle.v", 118, 199); // cd (w, ch)
+selectCodeEditor("single cycle.v", 50, 232); // cd (w, ch)
+selectCodeEditor("single cycle.v", 48, 222); // cd (w, ch)
+selectCodeEditor("single cycle.v", 247, 141); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // B (f, ch)
+selectCodeEditor("single cycle.v", 182, 267); // cd (w, ch)
+selectCodeEditor("single cycle.v", 93, 142); // cd (w, ch)
+selectCodeEditor("single cycle.v", 31, 444); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 46, 350); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("single cycle.v", 75, 314); // cd (w, ch)
+selectCodeEditor("single cycle.v", 331, 315); // cd (w, ch)
+selectCodeEditor("single cycle.v", 230, 360); // cd (w, ch)
+selectCodeEditor("single cycle.v", 344, 310); // cd (w, ch)
+selectCodeEditor("single cycle.v", 246, 443); // cd (w, ch)
+selectCodeEditor("single cycle.v", 248, 461); // cd (w, ch)
+selectCodeEditor("single cycle.v", 278, 471); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 149, 485); // cd (w, ch)
+// [GUI Memory]: 101 MB (+322kb) [00:18:33]
+// Elapsed time: 77 seconds
+selectCodeEditor("single cycle.v", 52, 487); // cd (w, ch)
+selectCodeEditor("single cycle.v", 619, 426); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 203, 155); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 56, 162); // cd (w, ch)
+selectCodeEditor("single cycle.v", 110, 151); // cd (w, ch)
+selectCodeEditor("single cycle.v", 124, 91); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 83, 309); // cd (w, ch)
+selectCodeEditor("single cycle.v", 80, 149); // cd (w, ch)
+selectCodeEditor("single cycle.v", 101, 389); // cd (w, ch)
+selectCodeEditor("single cycle.v", 155, 389); // cd (w, ch)
+selectCodeEditor("single cycle.v", 155, 389); // cd (w, ch)
+// Elapsed time: 64 seconds
+selectCodeEditor("single cycle.v", 487, 260); // cd (w, ch)
+selectCodeEditor("single cycle.v", 164, 272); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 44 MB. Current time: 11/12/18 3:52:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 11/12/18 4:22:04 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 11/12/18 4:52:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 11/12/18 5:22:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 11/12/18 5:52:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 11/12/18 6:22:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 11/12/18 6:52:05 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 11/12/18 7:22:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 11/12/18 7:52:06 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 11/12/18 8:22:06 PM CST
+// Elapsed time: 17299 seconds
+selectCodeEditor("single cycle.v", 302, 308); // cd (w, ch)
+selectCodeEditor("single cycle.v", 277, 291); // cd (w, ch)
+selectCodeEditor("single cycle.v", 216, 295); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("single cycle.v", 156, 298); // cd (w, ch)
+selectCodeEditor("single cycle.v", 275, 279); // cd (w, ch)
+selectCodeEditor("single cycle.v", 579, 370); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 170, 457); // cd (w, ch)
+// Elapsed time: 98 seconds
+selectCodeEditor("single cycle.v", 143, 422); // cd (w, ch)
+selectCodeEditor("single cycle.v", 476, 444); // cd (w, ch)
+selectCodeEditor("single cycle.v", 476, 445); // cd (w, ch)
+selectCodeEditor("single cycle.v", 652, 414); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 141, 386); // cd (w, ch)
+selectCodeEditor("single cycle.v", 233, 339); // cd (w, ch)
+selectCodeEditor("single cycle.v", 233, 339, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 233, 339); // cd (w, ch)
+selectCodeEditor("single cycle.v", 150, 375); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 46, 386); // cd (w, ch)
+selectCodeEditor("single cycle.v", 454, 349); // cd (w, ch)
+selectCodeEditor("single cycle.v", 265, 219); // cd (w, ch)
+selectCodeEditor("single cycle.v", 269, 219); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 374); // cd (w, ch)
+selectCodeEditor("single cycle.v", 56, 370); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("single cycle.v", 613, 311); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 94, 370); // cd (w, ch)
+selectCodeEditor("single cycle.v", 184, 329); // cd (w, ch)
+selectCodeEditor("single cycle.v", 49, 350); // cd (w, ch)
+selectCodeEditor("single cycle.v", 225, 352); // cd (w, ch)
+selectCodeEditor("single cycle.v", 313, 397); // cd (w, ch)
+selectCodeEditor("single cycle.v", 349, 474); // cd (w, ch)
+selectCodeEditor("single cycle.v", 300, 383); // cd (w, ch)
+selectCodeEditor("single cycle.v", 349, 360); // cd (w, ch)
+selectCodeEditor("single cycle.v", 376, 356); // cd (w, ch)
+selectCodeEditor("single cycle.v", 428, 362); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 351); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 595, 324); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, SingleCycle (single cycle.v)]", 3, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, single cycle.v]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, single cycle.v]", 2, false); // B (D, ch)
+selectCodeEditor("single cycle.v", 115, 116); // cd (w, ch)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // h (f, ch)
+selectButton(PAResourceEtoH.FileSetPanel_MESSAGES, "2"); // h (f, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true, false, false, false, false, true); // B (D, ch) - Double Click - Node
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, single cycle.v]", 2, false); // B (D, ch)
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files, single cycle.v]", 2, false, false, false, false, false, true); // B (D, ch) - Double Click
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near .. [D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:59]. ]", 2, false); // ah (O, ch)
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\PANDA\Study\VE370\Project\Project2\P2 single cycle\P2 single cycle.srcs\sources_1\new\single cycle.v;-;;-;16;-;line;-;59;-;;-;16;-;"); // ah (O, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 153, 202); // cd (w, ch)
+selectCodeEditor("single cycle.v", 259, 211); // cd (w, ch)
+selectCodeEditor("single cycle.v", 271, 197); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("single cycle.v", 274, 199); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("single cycle.v", 136, 276); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("single cycle.v", 144, 291); // cd (w, ch)
+selectCodeEditor("single cycle.v", 53, 302); // cd (w, ch)
+selectCodeEditor("single cycle.v", 214, 83); // cd (w, ch)
+// Elapsed time: 39 seconds
+selectCodeEditor("single cycle.v", 194, 109); // cd (w, ch)
+selectCodeEditor("single cycle.v", 284, 138); // cd (w, ch)
+selectCodeEditor("single cycle.v", 343, 155); // cd (w, ch)
+selectCodeEditor("single cycle.v", 268, 217); // cd (w, ch)
+selectCodeEditor("single cycle.v", 334, 87); // cd (w, ch)
+selectCodeEditor("single cycle.v", 332, 86); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("single cycle.v", 247, 263); // cd (w, ch)
+selectCodeEditor("single cycle.v", 231, 328); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 343, 85); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 321, 145); // cd (w, ch)
+selectCodeEditor("single cycle.v", 99, 178); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 73, 155); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 218, 314); // cd (w, ch)
+selectCodeEditor("single cycle.v", 258, 383); // cd (w, ch)
+selectCodeEditor("single cycle.v", 273, 457); // cd (w, ch)
+selectCodeEditor("single cycle.v", 279, 474); // cd (w, ch)
+selectCodeEditor("single cycle.v", 380, 153); // cd (w, ch)
+selectCodeEditor("single cycle.v", 463, 150); // cd (w, ch)
+selectCodeEditor("single cycle.v", 514, 240); // cd (w, ch)
+selectCodeEditor("single cycle.v", 241, 121); // cd (w, ch)
+selectCodeEditor("single cycle.v", 523, 138); // cd (w, ch)
+selectCodeEditor("single cycle.v", 656, 112); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 406, 159); // cd (w, ch)
+selectCodeEditor("single cycle.v", 310, 241); // cd (w, ch)
+selectCodeEditor("single cycle.v", 259, 238); // cd (w, ch)
+selectCodeEditor("single cycle.v", 226, 291); // cd (w, ch)
+selectCodeEditor("single cycle.v", 259, 361); // cd (w, ch)
+selectCodeEditor("single cycle.v", 256, 336); // cd (w, ch)
+selectCodeEditor("single cycle.v", 46, 361); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 356); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 27 seconds
+selectCodeEditor("single cycle.v", 78, 350); // cd (w, ch)
+selectCodeEditor("single cycle.v", 664, 389); // cd (w, ch)
+selectCodeEditor("single cycle.v", 233, 352); // cd (w, ch)
+// Elapsed time: 52 seconds
+selectCodeEditor("single cycle.v", 367, 78); // cd (w, ch)
+selectCodeEditor("single cycle.v", 329, 107); // cd (w, ch)
+selectCodeEditor("single cycle.v", 337, 117); // cd (w, ch)
+selectCodeEditor("single cycle.v", 51, 180); // cd (w, ch)
+selectCodeEditor("single cycle.v", 117, 128); // cd (w, ch)
+selectCodeEditor("single cycle.v", 234, 135); // cd (w, ch)
+selectCodeEditor("single cycle.v", 372, 404); // cd (w, ch)
+selectCodeEditor("single cycle.v", 372, 404, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 349, 415); // cd (w, ch)
+selectCodeEditor("single cycle.v", 338, 416); // cd (w, ch)
+selectCodeEditor("single cycle.v", 233, 157); // cd (w, ch)
+// Elapsed time: 36 seconds
+selectCodeEditor("single cycle.v", 59, 259); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 45, 162); // cd (w, ch)
+selectCodeEditor("single cycle.v", 42, 162); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+// Elapsed time: 44 seconds
+selectCodeEditor("single cycle.v", 216, 371); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 198, 163); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 373, 200); // cd (w, ch)
+selectCodeEditor("single cycle.v", 362, 244); // cd (w, ch)
+selectCodeEditor("single cycle.v", 351, 318); // cd (w, ch)
+selectCodeEditor("single cycle.v", 359, 392); // cd (w, ch)
+selectCodeEditor("single cycle.v", 271, 133); // cd (w, ch)
+selectCodeEditor("single cycle.v", 293, 38); // cd (w, ch)
+selectCodeEditor("single cycle.v", 303, 63); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 421, 226); // cd (w, ch)
+selectCodeEditor("single cycle.v", 428, 259); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 473, 91); // cd (w, ch)
+selectCodeEditor("single cycle.v", 460, 104); // cd (w, ch)
+selectCodeEditor("single cycle.v", 331, 87); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("single cycle.v", 491, 113); // cd (w, ch)
+selectCodeEditor("single cycle.v", 94, 85); // cd (w, ch)
+selectCodeEditor("single cycle.v", 255, 99); // cd (w, ch)
+selectCodeEditor("single cycle.v", 326, 106); // cd (w, ch)
+selectCodeEditor("single cycle.v", 338, 145); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_DELETE, (String) null); // B (f, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 276, 272); // cd (w, ch)
+selectCodeEditor("single cycle.v", 238, 395); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("single cycle.v", 293, 165); // cd (w, ch)
+selectCodeEditor("single cycle.v", 23, 158); // cd (w, ch)
+selectCodeEditor("single cycle.v", 23, 158); // cd (w, ch)
+selectCodeEditor("single cycle.v", 263, 254); // cd (w, ch)
+selectCodeEditor("single cycle.v", 263, 254, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 342, 324); // cd (w, ch)
+selectCodeEditor("single cycle.v", 123, 265); // cd (w, ch)
+selectCodeEditor("single cycle.v", 196, 213); // cd (w, ch)
+selectCodeEditor("single cycle.v", 167, 185); // cd (w, ch)
+selectCodeEditor("single cycle.v", 255, 218); // cd (w, ch)
+selectCodeEditor("single cycle.v", 255, 218); // cd (w, ch)
+selectCodeEditor("single cycle.v", 20, 181); // cd (w, ch)
+selectCodeEditor("single cycle.v", 280, 210); // cd (w, ch)
+selectCodeEditor("single cycle.v", 299, 192); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("single cycle.v", 159, 175); // cd (w, ch)
+// Elapsed time: 100 seconds
+selectCodeEditor("single cycle.v", 43, 270); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("single cycle.v", 57, 375); // cd (w, ch)
+selectCodeEditor("single cycle.v", 39, 294); // cd (w, ch)
+selectCodeEditor("single cycle.v", 248, 291); // cd (w, ch)
+selectCodeEditor("single cycle.v", 282, 295); // cd (w, ch)
+// Elapsed time: 24 seconds
+selectCodeEditor("single cycle.v", 444, 85); // cd (w, ch)
+selectCodeEditor("single cycle.v", 359, 214); // cd (w, ch)
+selectCodeEditor("single cycle.v", 279, 178); // cd (w, ch)
+selectCodeEditor("single cycle.v", 318, 181); // cd (w, ch)
+selectCodeEditor("single cycle.v", 385, 182); // cd (w, ch)
+selectCodeEditor("single cycle.v", 261, 203); // cd (w, ch)
+selectCodeEditor("single cycle.v", 41, 184); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 219, 255); // cd (w, ch)
+selectCodeEditor("single cycle.v", 56, 162); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 60, 160); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 390, 165); // cd (w, ch)
+// Elapsed time: 66 seconds
+selectCodeEditor("single cycle.v", 5, 484); // cd (w, ch)
+// Elapsed time: 159 seconds
+selectButton(RDIResource.HCodeEditor_CLOSE, (String) null); // k (aH, ch)
+selectCodeEditor("single cycle.v", 201, 508); // cd (w, ch)
+selectCodeEditor("single cycle.v", 44, 161); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("single cycle.v", 198, 250); // cd (w, ch)
+selectCodeEditor("single cycle.v", 61, 465); // cd (w, ch)
+selectCodeEditor("single cycle.v", 440, 457); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 33, 392); // cd (w, ch)
+selectCodeEditor("single cycle.v", 138, 348); // cd (w, ch)
+selectCodeEditor("single cycle.v", 121, 305); // cd (w, ch)
+selectCodeEditor("single cycle.v", 121, 305); // cd (w, ch)
+selectCodeEditor("single cycle.v", 341, 481); // cd (w, ch)
+selectCodeEditor("single cycle.v", 196, 506); // cd (w, ch)
+selectCodeEditor("single cycle.v", 196, 514); // cd (w, ch)
+selectCodeEditor("single cycle.v", 44, 502); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 202, 505); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 51, 349); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 193, 354); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 228, 288); // cd (w, ch)
+selectCodeEditor("single cycle.v", 235, 504); // cd (w, ch)
+selectCodeEditor("single cycle.v", 234, 490); // cd (w, ch)
+// Elapsed time: 71 seconds
+selectCodeEditor("single cycle.v", 150, 509); // cd (w, ch)
+// Elapsed time: 37 seconds
+selectCodeEditor("single cycle.v", 173, 476); // cd (w, ch)
+selectCodeEditor("single cycle.v", 178, 455); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 41 MB. Current time: 11/12/18 8:52:07 PM CST
+// Elapsed time: 73 seconds
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 131, 261); // cd (w, ch)
+selectCodeEditor("single cycle.v", 97, 256); // cd (w, ch)
+selectCodeEditor("single cycle.v", 32, 481); // cd (w, ch)
+selectCodeEditor("single cycle.v", 26, 485); // cd (w, ch)
+selectCodeEditor("single cycle.v", 54, 506); // cd (w, ch)
+selectCodeEditor("single cycle.v", 181, 218); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("single cycle.v", 142, 200); // cd (w, ch)
+selectCodeEditor("single cycle.v", 141, 294); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 69, 332); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("single cycle.v", 84, 332); // cd (w, ch)
+selectCodeEditor("single cycle.v", 121, 391); // cd (w, ch)
+selectCodeEditor("single cycle.v", 121, 409); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 133, 239); // cd (w, ch)
+selectCodeEditor("single cycle.v", 157, 222); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 175, 333); // cd (w, ch)
+selectCodeEditor("single cycle.v", 122, 446); // cd (w, ch)
+selectCodeEditor("single cycle.v", 117, 471); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 119, 486); // cd (w, ch)
+selectCodeEditor("single cycle.v", 155, 478); // cd (w, ch)
+selectCodeEditor("single cycle.v", 150, 482); // cd (w, ch)
+selectCodeEditor("single cycle.v", 179, 486); // cd (w, ch)
+selectCodeEditor("single cycle.v", 139, 480); // cd (w, ch)
+selectCodeEditor("single cycle.v", 154, 491); // cd (w, ch)
+selectCodeEditor("single cycle.v", 150, 490, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 145, 483); // cd (w, ch)
+selectCodeEditor("single cycle.v", 143, 486); // cd (w, ch)
+selectCodeEditor("single cycle.v", 153, 490); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 187, 501); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 226, 490); // cd (w, ch)
+selectCodeEditor("single cycle.v", 119, 502); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 12 seconds
+selectTree(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "[, Analysis Results, sources_1, [HDL 9-806] Syntax error near .. [D:/PANDA/Study/VE370/Project/Project2/P2 single cycle/P2 single cycle.srcs/sources_1/new/single cycle.v:25]. ]", 2, true); // ah (O, ch) - Node
+messagesViewCrossProbe(PAResourceItoN.MsgTreePanel_MESSAGE_VIEW_TREE, "src;-;D:\PANDA\Study\VE370\Project\Project2\P2 single cycle\P2 single cycle.srcs\sources_1\new\single cycle.v;-;;-;16;-;line;-;25;-;;-;16;-;"); // ah (O, ch)
+selectCodeEditor("single cycle.v", 324, 294); // cd (w, ch)
+selectCodeEditor("single cycle.v", 30, 293); // cd (w, ch)
+selectCodeEditor("single cycle.v", 30, 293); // cd (w, ch)
+selectCodeEditor("single cycle.v", 30, 293, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 258, 277); // cd (w, ch)
+selectCodeEditor("single cycle.v", 445, 205); // cd (w, ch)
+selectCodeEditor("single cycle.v", 37, 289); // cd (w, ch)
+// Elapsed time: 10 seconds
+maximizeView(PAResourceOtoP.PAViews_BASE_WORKSPACE, "BaseWorkspace"); // O (Q, ch)
+unMinimizeFrame(PAResourceOtoP.PAViews_SOURCES, "Sources"); // aw
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectCodeEditor("single cycle.v", 166, 347); // cd (w, ch)
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("single cycle.v", 189, 540); // cd (w, ch)
+selectCodeEditor("single cycle.v", 183, 343); // cd (w, ch)
+selectCodeEditor("single cycle.v", 180, 330); // cd (w, ch)
+// Elapsed time: 81 seconds
+selectCodeEditor("single cycle.v", 48, 350); // cd (w, ch)
+selectCodeEditor("single cycle.v", 61, 353); // cd (w, ch)
+// Elapsed time: 42 seconds
+selectCodeEditor("single cycle.v", 44, 578); // cd (w, ch)
+selectCodeEditor("single cycle.v", 147, 576); // cd (w, ch)
+selectCodeEditor("single cycle.v", 53, 596); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 26, 349); // cd (w, ch)
+selectCodeEditor("single cycle.v", 516, 346); // cd (w, ch)
+// Elapsed time: 207 seconds
+selectCodeEditor("single cycle.v", 28, 346); // cd (w, ch)
+selectCodeEditor("single cycle.v", 360, 338); // cd (w, ch)
+selectCodeEditor("single cycle.v", 509, 342); // cd (w, ch)
+selectCodeEditor("single cycle.v", 530, 347); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 25, 599); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 55, 596); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("single cycle.v", 165, 455); // cd (w, ch)
+selectCodeEditor("single cycle.v", 140, 676); // cd (w, ch)
+selectCodeEditor("single cycle.v", 183, 147); // cd (w, ch)
+selectCodeEditor("single cycle.v", 241, 150); // cd (w, ch)
+selectCodeEditor("single cycle.v", 202, 600); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 142, 597); // cd (w, ch)
+selectCodeEditor("single cycle.v", 248, 602); // cd (w, ch)
+selectCodeEditor("single cycle.v", 218, 600); // cd (w, ch)
+selectCodeEditor("single cycle.v", 268, 600); // cd (w, ch)
+selectCodeEditor("single cycle.v", 223, 595); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("single cycle.v", 289, 597); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("single cycle.v", 361, 598); // cd (w, ch)
+selectCodeEditor("single cycle.v", 183, 564); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("single cycle.v", 352, 616); // cd (w, ch)
+selectCodeEditor("single cycle.v", 278, 447); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 335, 333); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 512, 304); // cd (w, ch)
+// Elapsed time: 51 seconds
+selectCodeEditor("single cycle.v", 176, 239); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 138, 144); // cd (w, ch)
+selectCodeEditor("single cycle.v", 267, 374, false, false, false, true, false); // cd (w, ch) - Popup Trigger
+selectCodeEditor("single cycle.v", 183, 331); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 109, 406); // cd (w, ch)
+selectCodeEditor("single cycle.v", 113, 275); // cd (w, ch)
+selectCodeEditor("single cycle.v", 85, 259); // cd (w, ch)
+selectCodeEditor("single cycle.v", 365, 374); // cd (w, ch)
+selectCodeEditor("single cycle.v", 365, 374, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 365, 374); // cd (w, ch)
+selectCodeEditor("single cycle.v", 365, 374); // cd (w, ch)
+selectCodeEditor("single cycle.v", 369, 412); // cd (w, ch)
+// Elapsed time: 42 seconds
+selectCodeEditor("single cycle.v", 379, 260); // cd (w, ch)
+selectCodeEditor("single cycle.v", 163, 332); // cd (w, ch)
+selectCodeEditor("single cycle.v", 255, 448); // cd (w, ch)
+selectCodeEditor("single cycle.v", 169, 371); // cd (w, ch)
+selectCodeEditor("single cycle.v", 157, 350); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("single cycle.v", 52, 461); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 45, 373); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 182, 400); // cd (w, ch)
+selectCodeEditor("single cycle.v", 185, 350); // cd (w, ch)
+selectCodeEditor("single cycle.v", 185, 348, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 185, 348); // cd (w, ch)
+selectCodeEditor("single cycle.v", 359, 374); // cd (w, ch)
+selectCodeEditor("single cycle.v", 459, 290); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("single cycle.v", 148, 448); // cd (w, ch)
+selectCodeEditor("single cycle.v", 51, 411); // cd (w, ch)
+selectCodeEditor("single cycle.v", 338, 525); // cd (w, ch)
+selectCodeEditor("single cycle.v", 98, 338); // cd (w, ch)
+selectCodeEditor("single cycle.v", 314, 386); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 123, 762); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 68, 773); // cd (w, ch)
+selectCodeEditor("single cycle.v", 342, 767); // cd (w, ch)
+selectCodeEditor("single cycle.v", 293, 739); // cd (w, ch)
+selectCodeEditor("single cycle.v", 344, 764); // cd (w, ch)
+// Elapsed time: 71 seconds
+selectCodeEditor("single cycle.v", 89, 730); // cd (w, ch)
+selectCodeEditor("single cycle.v", 159, 729); // cd (w, ch)
+selectCodeEditor("single cycle.v", 143, 657); // cd (w, ch)
+selectCodeEditor("single cycle.v", 380, 703); // cd (w, ch)
+selectCodeEditor("single cycle.v", 142, 720); // cd (w, ch)
+selectCodeEditor("single cycle.v", 136, 729); // cd (w, ch)
+selectCodeEditor("single cycle.v", 218, 705); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 50 seconds
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 52, 431); // cd (w, ch)
+selectCodeEditor("single cycle.v", 50, 430); // cd (w, ch)
+selectCodeEditor("single cycle.v", 92, 426); // cd (w, ch)
+// Elapsed time: 28 seconds
+selectCodeEditor("single cycle.v", 225, 280); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 199, 473); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 189, 464); // cd (w, ch)
+selectCodeEditor("single cycle.v", 183, 466); // cd (w, ch)
+selectCodeEditor("single cycle.v", 121, 463); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 119, 481); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 215, 485); // cd (w, ch)
+selectCodeEditor("single cycle.v", 221, 485); // cd (w, ch)
+selectCodeEditor("single cycle.v", 187, 524); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 222, 506); // cd (w, ch)
+selectCodeEditor("single cycle.v", 199, 536); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 189, 540); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 225, 523); // cd (w, ch)
+selectCodeEditor("single cycle.v", 93, 565); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("single cycle.v", 95, 579); // cd (w, ch)
+selectCodeEditor("single cycle.v", 175, 560); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("single cycle.v", 262, 534); // cd (w, ch)
+selectCodeEditor("single cycle.v", 265, 526); // cd (w, ch)
+selectCodeEditor("single cycle.v", 207, 568); // cd (w, ch)
+selectCodeEditor("single cycle.v", 207, 568); // cd (w, ch)
+selectCodeEditor("single cycle.v", 244, 428); // cd (w, ch)
+selectCodeEditor("single cycle.v", 46, 638); // cd (w, ch)
+// Elapsed time: 121 seconds
+selectCodeEditor("single cycle.v", 110, 708); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 337, 556); // cd (w, ch)
+selectCodeEditor("single cycle.v", 264, 738); // cd (w, ch)
+selectCodeEditor("single cycle.v", 264, 738); // cd (w, ch)
+selectCodeEditor("single cycle.v", 153, 756); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 84, 502); // cd (w, ch)
+selectCodeEditor("single cycle.v", 48, 502); // cd (w, ch)
+selectCodeEditor("single cycle.v", 65, 750); // cd (w, ch)
+selectCodeEditor("single cycle.v", 159, 749); // cd (w, ch)
+selectCodeEditor("single cycle.v", 227, 759); // cd (w, ch)
+selectCodeEditor("single cycle.v", 227, 759); // cd (w, ch)
+selectCodeEditor("single cycle.v", 137, 716); // cd (w, ch)
+selectCodeEditor("single cycle.v", 155, 773); // cd (w, ch)
+selectCodeEditor("single cycle.v", 0, 713); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 179, 761); // cd (w, ch)
+selectCodeEditor("single cycle.v", 20, 714); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 11/12/18 9:22:07 PM CST
+// Elapsed time: 667 seconds
+selectCodeEditor("single cycle.v", 263, 570); // cd (w, ch)
+selectCodeEditor("single cycle.v", 447, 174); // cd (w, ch)
+// Elapsed time: 80 seconds
+selectCodeEditor("single cycle.v", 473, 180); // cd (w, ch)
+// Elapsed time: 138 seconds
+selectCodeEditor("single cycle.v", 327, 209); // cd (w, ch)
+selectCodeEditor("single cycle.v", 268, 197); // cd (w, ch)
+selectCodeEditor("single cycle.v", 468, 214); // cd (w, ch)
+// Elapsed time: 44 seconds
+selectCodeEditor("single cycle.v", 503, 88); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 20, 578); // cd (w, ch)
+selectCodeEditor("single cycle.v", 26, 390); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 7, 573); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 276, 553); // cd (w, ch)
+selectCodeEditor("single cycle.v", 389, 408); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("single cycle.v", 331, 424); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("single cycle.v", 183, 411); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("single cycle.v", 164, 201); // cd (w, ch)
+selectCodeEditor("single cycle.v", 538, 153); // cd (w, ch)
+selectCodeEditor("single cycle.v", 181, 89); // cd (w, ch)
+// Elapsed time: 39 seconds
+selectCodeEditor("single cycle.v", 69, 28); // cd (w, ch)
+selectCodeEditor("single cycle.v", 66, 74); // cd (w, ch)
+selectCodeEditor("single cycle.v", 46, 569); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 203, 471); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("single cycle.v", 89, 598); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 30 seconds
+selectCodeEditor("single cycle.v", 213, 658); // cd (w, ch)
+// Elapsed time: 286 seconds
+selectCodeEditor("single cycle.v", 75, 730); // cd (w, ch)
+selectCodeEditor("single cycle.v", 237, 740); // cd (w, ch)
+selectCodeEditor("single cycle.v", 238, 746); // cd (w, ch)
+// Elapsed time: 159 seconds
+selectCodeEditor("single cycle.v", 161, 653); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("single cycle.v", 159, 578); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 204, 657); // cd (w, ch)
+// Elapsed time: 29 seconds
+selectCodeEditor("single cycle.v", 259, 738); // cd (w, ch)
+// Elapsed time: 75 seconds
+selectCodeEditor("single cycle.v", 208, 597); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("single cycle.v", 146, 733); // cd (w, ch)
+selectCodeEditor("single cycle.v", 92, 739); // cd (w, ch)
+selectCodeEditor("single cycle.v", 102, 746); // cd (w, ch)
+selectCodeEditor("single cycle.v", 50, 712); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 185, 698); // cd (w, ch)
+selectCodeEditor("single cycle.v", 209, 712); // cd (w, ch)
+selectCodeEditor("single cycle.v", 209, 712, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 121, 713); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 147, 731); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 265, 706); // cd (w, ch)
+selectCodeEditor("single cycle.v", 409, 703); // cd (w, ch)
+selectCodeEditor("single cycle.v", 159, 603); // cd (w, ch)
+selectCodeEditor("single cycle.v", 305, 555); // cd (w, ch)
+selectCodeEditor("single cycle.v", 333, 689); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 124, 713); // cd (w, ch)
+selectCodeEditor("single cycle.v", 314, 587); // cd (w, ch)
+selectCodeEditor("single cycle.v", 259, 742); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("single cycle.v", 352, 481); // cd (w, ch)
+selectCodeEditor("single cycle.v", 365, 495); // cd (w, ch)
+// Elapsed time: 76 seconds
+selectCodeEditor("single cycle.v", 76, 755); // cd (w, ch)
+// Elapsed time: 157 seconds
+selectCodeEditor("single cycle.v", 407, 408); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 11/12/18 9:52:12 PM CST
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 479, 292); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("single cycle.v", 404, 247); // cd (w, ch)
+selectCodeEditor("single cycle.v", 407, 243, false, false, false, false, true); // cd (w, ch) - Double Click
+// Elapsed time: 15 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 29, 546); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 47 seconds
+selectCodeEditor("single cycle.v", 118, 315); // cd (w, ch)
+selectCodeEditor("single cycle.v", 118, 315); // cd (w, ch)
+selectCodeEditor("single cycle.v", 358, 233); // cd (w, ch)
+selectCodeEditor("single cycle.v", 474, 255); // cd (w, ch)
+selectCodeEditor("single cycle.v", 366, 303); // cd (w, ch)
+selectCodeEditor("single cycle.v", 366, 303, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 366, 303); // cd (w, ch)
+selectCodeEditor("single cycle.v", 366, 303); // cd (w, ch)
+selectCodeEditor("single cycle.v", 366, 303); // cd (w, ch)
+selectCodeEditor("single cycle.v", 261, 261); // cd (w, ch)
+selectCodeEditor("single cycle.v", 471, 581); // cd (w, ch)
+// Elapsed time: 76 seconds
+selectCodeEditor("single cycle.v", 409, 3); // cd (w, ch)
+selectCodeEditor("single cycle.v", 64, 45); // cd (w, ch)
+// Elapsed time: 67 seconds
+selectCodeEditor("single cycle.v", 65, 431); // cd (w, ch)
+selectCodeEditor("single cycle.v", 314, 429); // cd (w, ch)
+// Elapsed time: 50 seconds
+selectCodeEditor("single cycle.v", 237, 428); // cd (w, ch)
+selectCodeEditor("single cycle.v", 719, 431); // cd (w, ch)
+selectCodeEditor("single cycle.v", 453, 424); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 22, 408); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 72, 421); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 425); // cd (w, ch)
+selectCodeEditor("single cycle.v", 64, 427); // cd (w, ch)
+selectCodeEditor("single cycle.v", 520, 422); // cd (w, ch)
+selectCodeEditor("single cycle.v", 520, 422); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 135, 255); // cd (w, ch)
+// Elapsed time: 81 seconds
+selectCodeEditor("single cycle.v", 211, 670); // cd (w, ch)
+selectCodeEditor("single cycle.v", 211, 670, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 216, 619); // cd (w, ch)
+selectCodeEditor("single cycle.v", 257, 630); // cd (w, ch)
+selectCodeEditor("single cycle.v", 311, 638); // cd (w, ch)
+selectCodeEditor("single cycle.v", 196, 678); // cd (w, ch)
+selectCodeEditor("single cycle.v", 111, 681); // cd (w, ch)
+selectCodeEditor("single cycle.v", 174, 676); // cd (w, ch)
+// Elapsed time: 122 seconds
+selectCodeEditor("single cycle.v", 211, 603); // cd (w, ch)
+selectCodeEditor("single cycle.v", 303, 637); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 61, 217); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("single cycle.v", 41, 222); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("single cycle.v", 65, 394); // cd (w, ch)
+selectCodeEditor("single cycle.v", 78, 285); // cd (w, ch)
+selectCodeEditor("single cycle.v", 126, 269); // cd (w, ch)
+selectCodeEditor("single cycle.v", 139, 271); // cd (w, ch)
+selectCodeEditor("single cycle.v", 141, 205); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("single cycle.v", 668, 107); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 257, 218); // cd (w, ch)
+selectCodeEditor("single cycle.v", 164, 301); // cd (w, ch)
+selectCodeEditor("single cycle.v", 190, 281); // cd (w, ch)
+selectCodeEditor("single cycle.v", 196, 301); // cd (w, ch)
+selectCodeEditor("single cycle.v", 272, 303); // cd (w, ch)
+selectCodeEditor("single cycle.v", 323, 295); // cd (w, ch)
+selectCodeEditor("single cycle.v", 372, 244); // cd (w, ch)
+selectCodeEditor("single cycle.v", 373, 225); // cd (w, ch)
+selectCodeEditor("single cycle.v", 226, 245); // cd (w, ch)
+selectCodeEditor("single cycle.v", 177, 226); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 537, 477); // cd (w, ch)
+selectCodeEditor("single cycle.v", 656, 552); // cd (w, ch)
+selectCodeEditor("single cycle.v", 654, 566); // cd (w, ch)
+selectCodeEditor("single cycle.v", 990, 608); // cd (w, ch)
+selectCodeEditor("single cycle.v", 117, 497); // cd (w, ch)
+selectCodeEditor("single cycle.v", 423, 405); // cd (w, ch)
+selectCodeEditor("single cycle.v", 328, 581); // cd (w, ch)
+selectCodeEditor("single cycle.v", 304, 527); // cd (w, ch)
+selectCodeEditor("single cycle.v", 174, 329); // cd (w, ch)
+selectCodeEditor("single cycle.v", 200, 331); // cd (w, ch)
+selectCodeEditor("single cycle.v", 146, 334); // cd (w, ch)
+// Elapsed time: 24 seconds
+selectCodeEditor("single cycle.v", 23, 280); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 74, 732); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 313, 657); // cd (w, ch)
+selectCodeEditor("single cycle.v", 169, 659); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 292, 694); // cd (w, ch)
+selectCodeEditor("single cycle.v", 156, 710); // cd (w, ch)
+selectCodeEditor("single cycle.v", 140, 704); // cd (w, ch)
+selectCodeEditor("single cycle.v", 216, 689); // cd (w, ch)
+selectCodeEditor("single cycle.v", 144, 713); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 216, 614); // cd (w, ch)
+selectCodeEditor("single cycle.v", 246, 653); // cd (w, ch)
+selectCodeEditor("single cycle.v", 175, 690); // cd (w, ch)
+selectCodeEditor("single cycle.v", 254, 725); // cd (w, ch)
+selectCodeEditor("single cycle.v", 343, 745); // cd (w, ch)
+selectCodeEditor("single cycle.v", 247, 758); // cd (w, ch)
+selectCodeEditor("single cycle.v", 660, 730); // cd (w, ch)
+selectCodeEditor("single cycle.v", 653, 732); // cd (w, ch)
+selectCodeEditor("single cycle.v", 671, 732); // cd (w, ch)
+selectCodeEditor("single cycle.v", 397, 726); // cd (w, ch)
+selectCodeEditor("single cycle.v", 283, 711); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("single cycle.v", 210, 616); // cd (w, ch)
+selectCodeEditor("single cycle.v", 260, 622); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 312, 638); // cd (w, ch)
+selectCodeEditor("single cycle.v", 58, 617); // cd (w, ch)
+selectCodeEditor("single cycle.v", 44, 618); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 27, 616); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 549, 619); // cd (w, ch)
+selectCodeEditor("single cycle.v", 371, 397); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 169, 451); // cd (w, ch)
+selectCodeEditor("single cycle.v", 354, 495); // cd (w, ch)
+selectCodeEditor("single cycle.v", 364, 543); // cd (w, ch)
+selectCodeEditor("single cycle.v", 306, 528); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("single cycle.v", 357, 515); // cd (w, ch)
+selectCodeEditor("single cycle.v", 331, 525); // cd (w, ch)
+selectCodeEditor("single cycle.v", 332, 541); // cd (w, ch)
+// Elapsed time: 76 seconds
+selectCodeEditor("single cycle.v", 90, 582); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 3, 542); // cd (w, ch)
+selectCodeEditor("single cycle.v", 135, 564); // cd (w, ch)
+selectCodeEditor("single cycle.v", 112, 543); // cd (w, ch)
+selectCodeEditor("single cycle.v", 190, 543); // cd (w, ch)
+selectCodeEditor("single cycle.v", 260, 545); // cd (w, ch)
+selectCodeEditor("single cycle.v", 257, 541); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("single cycle.v", 589, 536); // cd (w, ch)
+selectCodeEditor("single cycle.v", 574, 601); // cd (w, ch)
+selectCodeEditor("single cycle.v", 495, 601); // cd (w, ch)
+selectCodeEditor("single cycle.v", 410, 587); // cd (w, ch)
+selectCodeEditor("single cycle.v", 418, 602); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 282, 531); // cd (w, ch)
+selectCodeEditor("single cycle.v", 322, 517); // cd (w, ch)
+selectCodeEditor("single cycle.v", 372, 590); // cd (w, ch)
+selectCodeEditor("single cycle.v", 412, 604); // cd (w, ch)
+selectCodeEditor("single cycle.v", 523, 618); // cd (w, ch)
+selectCodeEditor("single cycle.v", 583, 591); // cd (w, ch)
+// Elapsed time: 45 seconds
+selectCodeEditor("single cycle.v", 493, 426); // cd (w, ch)
+selectCodeEditor("single cycle.v", 470, 242); // cd (w, ch)
+// Elapsed time: 72 seconds
+selectCodeEditor("single cycle.v", 557, 81); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 762, 184); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("single cycle.v", 778, 500); // cd (w, ch)
+// Elapsed time: 16 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 390, 46); // cd (w, ch)
+// Elapsed time: 28 seconds
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+selectCodeEditor("single cycle.v", 230, 467); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 241, 357); // cd (w, ch)
+// Elapsed time: 117 seconds
+selectCodeEditor("single cycle.v", 324, 391); // cd (w, ch)
+selectCodeEditor("single cycle.v", 238, 321); // cd (w, ch)
+selectCodeEditor("single cycle.v", 249, 346); // cd (w, ch)
+selectCodeEditor("single cycle.v", 189, 343); // cd (w, ch)
+selectCodeEditor("single cycle.v", 311, 516); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 658, 327); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+// Elapsed time: 24 seconds
+selectCodeEditor("single cycle.v", 110, 333); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("single cycle.v", 97, 330); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 251, 329); // cd (w, ch)
+// Elapsed time: 24 seconds
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+applyEnter(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+setText(RDIResource.HCodeEditor_SEARCH_TEXT_COMBO_BOX, "branch"); // l (aP, ch)
+// Elapsed time: 44 seconds
+selectCodeEditor("single cycle.v", 475, 407); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 670, 427); // cd (w, ch)
+selectCodeEditor("single cycle.v", 741, 401); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 649, 210); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 20, 217); // cd (w, ch)
+selectCodeEditor("single cycle.v", 231, 247); // cd (w, ch)
+selectCodeEditor("single cycle.v", 226, 223); // cd (w, ch)
+selectCodeEditor("single cycle.v", 225, 272); // cd (w, ch)
+selectCodeEditor("single cycle.v", 313, 233); // cd (w, ch)
+selectCodeEditor("single cycle.v", 377, 214); // cd (w, ch)
+selectCodeEditor("single cycle.v", 403, 214); // cd (w, ch)
+selectCodeEditor("single cycle.v", 437, 220); // cd (w, ch)
+selectCodeEditor("single cycle.v", 443, 236); // cd (w, ch)
+selectCodeEditor("single cycle.v", 444, 238, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 193, 298); // cd (w, ch)
+selectCodeEditor("single cycle.v", 203, 272); // cd (w, ch)
+selectCodeEditor("single cycle.v", 315, 255); // cd (w, ch)
+// Elapsed time: 15 seconds
+selectCodeEditor("single cycle.v", 487, 217); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 504, 409); // cd (w, ch)
+// Elapsed time: 19 seconds
+selectCodeEditor("single cycle.v", 373, 257); // cd (w, ch)
+selectCodeEditor("single cycle.v", 431, 288); // cd (w, ch)
+selectCodeEditor("single cycle.v", 478, 301); // cd (w, ch)
+selectCodeEditor("single cycle.v", 1, 223); // cd (w, ch)
+selectCodeEditor("single cycle.v", 170, 310); // cd (w, ch)
+selectCodeEditor("single cycle.v", 190, 374); // cd (w, ch)
+selectCodeEditor("single cycle.v", 260, 422); // cd (w, ch)
+selectCodeEditor("single cycle.v", 272, 398); // cd (w, ch)
+selectCodeEditor("single cycle.v", 285, 409); // cd (w, ch)
+selectCodeEditor("single cycle.v", 296, 421); // cd (w, ch)
+selectCodeEditor("single cycle.v", 291, 403); // cd (w, ch)
+selectCodeEditor("single cycle.v", 339, 394); // cd (w, ch)
+// Elapsed time: 17 seconds
+selectCodeEditor("single cycle.v", 139, 388); // cd (w, ch)
+// Elapsed time: 44 seconds
+selectCodeEditor("single cycle.v", 264, 390); // cd (w, ch)
+selectCodeEditor("single cycle.v", 272, 409); // cd (w, ch)
+selectCodeEditor("single cycle.v", 221, 435); // cd (w, ch)
+selectCodeEditor("single cycle.v", 267, 516); // cd (w, ch)
+selectCodeEditor("single cycle.v", 223, 505); // cd (w, ch)
+selectCodeEditor("single cycle.v", 302, 517); // cd (w, ch)
+selectCodeEditor("single cycle.v", 342, 566); // cd (w, ch)
+selectCodeEditor("single cycle.v", 404, 558); // cd (w, ch)
+selectCodeEditor("single cycle.v", 388, 528); // cd (w, ch)
+selectCodeEditor("single cycle.v", 327, 498); // cd (w, ch)
+selectCodeEditor("single cycle.v", 398, 544); // cd (w, ch)
+selectCodeEditor("single cycle.v", 229, 504); // cd (w, ch)
+selectCodeEditor("single cycle.v", 161, 502); // cd (w, ch)
+selectCodeEditor("single cycle.v", 144, 504); // cd (w, ch)
+selectCodeEditor("single cycle.v", 137, 502); // cd (w, ch)
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 11/12/18 10:22:17 PM CST
+selectCodeEditor("single cycle.v", 296, 520); // cd (w, ch)
+selectCodeEditor("single cycle.v", 348, 503); // cd (w, ch)
+selectCodeEditor("single cycle.v", 352, 502, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 398, 507); // cd (w, ch)
+selectCodeEditor("single cycle.v", 400, 522); // cd (w, ch)
+selectCodeEditor("single cycle.v", 377, 541); // cd (w, ch)
+selectCodeEditor("single cycle.v", 253, 553); // cd (w, ch)
+selectCodeEditor("single cycle.v", 285, 570); // cd (w, ch)
+selectCodeEditor("single cycle.v", 319, 596); // cd (w, ch)
+selectCodeEditor("single cycle.v", 262, 528); // cd (w, ch)
+selectCodeEditor("single cycle.v", 230, 448); // cd (w, ch)
+// Elapsed time: 31 seconds
+selectCodeEditor("single cycle.v", 235, 453); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 286, 503); // cd (w, ch)
+selectCodeEditor("single cycle.v", 233, 501); // cd (w, ch)
+// Elapsed time: 20 seconds
+selectCodeEditor("single cycle.v", 303, 446); // cd (w, ch)
+selectCodeEditor("single cycle.v", 235, 502); // cd (w, ch)
+selectCodeEditor("single cycle.v", 216, 521); // cd (w, ch)
+selectCodeEditor("single cycle.v", 208, 524); // cd (w, ch)
+selectCodeEditor("single cycle.v", 224, 527); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 390, 514); // cd (w, ch)
+selectCodeEditor("single cycle.v", 405, 554); // cd (w, ch)
+selectCodeEditor("single cycle.v", 369, 576); // cd (w, ch)
+// Elapsed time: 18 seconds
+selectCodeEditor("single cycle.v", 217, 330); // cd (w, ch)
+selectCodeEditor("single cycle.v", 293, 461); // cd (w, ch)
+selectCodeEditor("single cycle.v", 341, 527); // cd (w, ch)
+selectCodeEditor("single cycle.v", 369, 514); // cd (w, ch)
+selectCodeEditor("single cycle.v", 407, 518); // cd (w, ch)
+selectCodeEditor("single cycle.v", 467, 516); // cd (w, ch)
+selectCodeEditor("single cycle.v", 475, 514); // cd (w, ch)
+// Elapsed time: 26 seconds
+selectCodeEditor("single cycle.v", 71, 385); // cd (w, ch)
+selectCodeEditor("single cycle.v", 115, 482); // cd (w, ch)
+selectCodeEditor("single cycle.v", 128, 573); // cd (w, ch)
+selectCodeEditor("single cycle.v", 153, 515); // cd (w, ch)
+selectCodeEditor("single cycle.v", 23, 540); // cd (w, ch)
+selectCodeEditor("single cycle.v", 76, 536); // cd (w, ch)
+selectCodeEditor("single cycle.v", 115, 535); // cd (w, ch)
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 118, 519); // cd (w, ch)
+selectCodeEditor("single cycle.v", 262, 453); // cd (w, ch)
+selectCodeEditor("single cycle.v", 77, 524); // cd (w, ch)
+selectCodeEditor("single cycle.v", 116, 524); // cd (w, ch)
+selectCodeEditor("single cycle.v", 379, 444); // cd (w, ch)
+selectCodeEditor("single cycle.v", 117, 524); // cd (w, ch)
+selectCodeEditor("single cycle.v", 355, 508); // cd (w, ch)
+selectCodeEditor("single cycle.v", 366, 573); // cd (w, ch)
+selectCodeEditor("single cycle.v", 378, 623); // cd (w, ch)
+selectCodeEditor("single cycle.v", 399, 666); // cd (w, ch)
+selectCodeEditor("single cycle.v", 332, 527); // cd (w, ch)
+selectCodeEditor("single cycle.v", 332, 527, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 267, 546); // cd (w, ch)
+// Elapsed time: 27 seconds
+selectCodeEditor("single cycle.v", 337, 524); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 337, 524); // cd (w, ch)
+selectCodeEditor("single cycle.v", 186, 543); // cd (w, ch)
+// Elapsed time: 30 seconds
+selectCodeEditor("single cycle.v", 222, 290); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 151, 545); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 363, 542); // cd (w, ch)
+// Elapsed time: 14 seconds
+selectCodeEditor("single cycle.v", 163, 539); // cd (w, ch)
+selectCodeEditor("single cycle.v", 146, 541); // cd (w, ch)
+// Elapsed time: 48 seconds
+selectCodeEditor("single cycle.v", 229, 101); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 336, 349); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 480, 356); // cd (w, ch)
+// Elapsed time: 22 seconds
+selectCodeEditor("single cycle.v", 351, 277); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 407, 251); // cd (w, ch)
+selectCodeEditor("single cycle.v", 403, 334); // cd (w, ch)
+selectCodeEditor("single cycle.v", 431, 406); // cd (w, ch)
+selectCodeEditor("single cycle.v", 241, 344); // cd (w, ch)
+selectCodeEditor("single cycle.v", 120, 330); // cd (w, ch)
+selectCodeEditor("single cycle.v", 150, 305); // cd (w, ch)
+selectCodeEditor("single cycle.v", 241, 183); // cd (w, ch)
+selectCodeEditor("single cycle.v", 304, 182); // cd (w, ch)
+selectCodeEditor("single cycle.v", 453, 179); // cd (w, ch)
+selectCodeEditor("single cycle.v", 266, 145); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 233, 181); // cd (w, ch)
+selectCodeEditor("single cycle.v", 60, 277); // cd (w, ch)
+selectCodeEditor("single cycle.v", 450, 311); // cd (w, ch)
+selectCodeEditor("single cycle.v", 486, 269); // cd (w, ch)
+// Elapsed time: 21 seconds
+selectCodeEditor("single cycle.v", 94, 279); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+// Elapsed time: 23 seconds
+selectCodeEditor("single cycle.v", 59, 310); // cd (w, ch)
+selectCodeEditor("single cycle.v", 204, 315); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 205, 315); // cd (w, ch)
+selectCodeEditor("single cycle.v", 384, 172); // cd (w, ch)
+selectCodeEditor("single cycle.v", 167, 202); // cd (w, ch)
+selectCodeEditor("single cycle.v", 25, 219); // cd (w, ch)
+selectCodeEditor("single cycle.v", 51, 235); // cd (w, ch)
+selectCodeEditor("single cycle.v", 47, 217); // cd (w, ch)
+selectCodeEditor("single cycle.v", 206, 294); // cd (w, ch)
+selectCodeEditor("single cycle.v", 102, 295); // cd (w, ch)
+selectCodeEditor("single cycle.v", 225, 318); // cd (w, ch)
+selectCodeEditor("single cycle.v", 68, 272); // cd (w, ch)
+selectCodeEditor("single cycle.v", 51, 312); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 69, 275); // cd (w, ch)
+selectCodeEditor("single cycle.v", 308, 180); // cd (w, ch)
+selectCodeEditor("single cycle.v", 330, 147); // cd (w, ch)
+selectCodeEditor("single cycle.v", 332, 147, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 332, 147); // cd (w, ch)
+selectCodeEditor("single cycle.v", 331, 143); // cd (w, ch)
+selectCodeEditor("single cycle.v", 336, 143); // cd (w, ch)
+selectCodeEditor("single cycle.v", 333, 144); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 495, 220); // cd (w, ch)
+// Elapsed time: 23 seconds
+selectCodeEditor("single cycle.v", 335, 142); // cd (w, ch)
+selectCodeEditor("single cycle.v", 347, 147); // cd (w, ch)
+selectCodeEditor("single cycle.v", 341, 144); // cd (w, ch)
+selectCodeEditor("single cycle.v", 349, 149); // cd (w, ch)
+selectCodeEditor("single cycle.v", 333, 140); // cd (w, ch)
+selectCodeEditor("single cycle.v", 306, 180); // cd (w, ch)
+selectCodeEditor("single cycle.v", 307, 178); // cd (w, ch)
+selectCodeEditor("single cycle.v", 308, 180); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 314, 181); // cd (w, ch)
+selectCodeEditor("single cycle.v", 327, 181); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 376, 175); // cd (w, ch)
+selectCodeEditor("single cycle.v", 270, 250); // cd (w, ch)
+selectCodeEditor("single cycle.v", 372, 254); // cd (w, ch)
+selectCodeEditor("single cycle.v", 320, 308); // cd (w, ch)
+selectCodeEditor("single cycle.v", 10, 283); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 55, 269); // cd (w, ch)
+selectCodeEditor("single cycle.v", 25, 276); // cd (w, ch)
+selectCodeEditor("single cycle.v", 235, 274); // cd (w, ch)
+selectCodeEditor("single cycle.v", 139, 293); // cd (w, ch)
+selectCodeEditor("single cycle.v", 324, 301); // cd (w, ch)
+selectCodeEditor("single cycle.v", 18, 266); // cd (w, ch)
+selectCodeEditor("single cycle.v", 144, 268); // cd (w, ch)
+selectCodeEditor("single cycle.v", 262, 230); // cd (w, ch)
+selectCodeEditor("single cycle.v", 199, 308); // cd (w, ch)
+selectCodeEditor("single cycle.v", 64, 335); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 330); // cd (w, ch)
+selectCodeEditor("single cycle.v", 72, 318); // cd (w, ch)
+selectCodeEditor("single cycle.v", 193, 331); // cd (w, ch)
+selectCodeEditor("single cycle.v", 90, 345); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 67, 358); // cd (w, ch)
+selectCodeEditor("single cycle.v", 49, 313); // cd (w, ch)
+selectCodeEditor("single cycle.v", 31, 310); // cd (w, ch)
+selectCodeEditor("single cycle.v", 216, 255); // cd (w, ch)
+selectCodeEditor("single cycle.v", 206, 310); // cd (w, ch)
+selectCodeEditor("single cycle.v", 246, 315); // cd (w, ch)
+// Elapsed time: 51 seconds
+selectCodeEditor("single cycle.v", 163, 199); // cd (w, ch)
+selectCodeEditor("single cycle.v", 235, 337); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 399, 321); // cd (w, ch)
+selectCodeEditor("single cycle.v", 485, 346); // cd (w, ch)
+// Elapsed time: 55 seconds
+selectCodeEditor("single cycle.v", 399, 332); // cd (w, ch)
+selectCodeEditor("single cycle.v", 114, 296); // cd (w, ch)
+// Elapsed time: 12 seconds
+selectCodeEditor("single cycle.v", 260, 143); // cd (w, ch)
+selectCodeEditor("single cycle.v", 404, 179); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 477, 189); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+selectTree(PAResourceEtoH.FileSetPanel_FILE_SET_PANEL_TREE, "[root, Design Sources, Syntax Error Files]", 1, true); // B (D, ch) - Node
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 19 seconds
+selectCodeEditor("single cycle.v", 258, 409); // cd (w, ch)
+selectCodeEditor("single cycle.v", 159, 311); // cd (w, ch)
+selectCodeEditor("single cycle.v", 362, 429); // cd (w, ch)
+selectCodeEditor("single cycle.v", 381, 371); // cd (w, ch)
+// Elapsed time: 16 seconds
+selectCodeEditor("single cycle.v", 139, 143); // cd (w, ch)
+selectCodeEditor("single cycle.v", 129, 183); // cd (w, ch)
+selectCodeEditor("single cycle.v", 213, 210); // cd (w, ch)
+selectCodeEditor("single cycle.v", 176, 200); // cd (w, ch)
+selectCodeEditor("single cycle.v", 150, 198); // cd (w, ch)
+selectCodeEditor("single cycle.v", 357, 186); // cd (w, ch)
+selectCodeEditor("single cycle.v", 357, 186, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 529, 280); // cd (w, ch)
+selectCodeEditor("single cycle.v", 529, 280, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 529, 280); // cd (w, ch)
+selectCodeEditor("single cycle.v", 529, 280); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_SAVE_FILE, (String) null); // B (f, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 11/12/18 10:52:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 43 MB. Current time: 11/12/18 11:22:17 PM CST
+// HMemoryUtils.trashcanNow. Engine heap size: 668 MB. GUI used memory: 42 MB. Current time: 11/12/18 11:52:17 PM CST
+// Elapsed time: 4867 seconds
+selectCodeEditor("single cycle.v", 283, 404); // cd (w, ch)
+selectCodeEditor("single cycle.v", 153, 560); // cd (w, ch)
+// Elapsed time: 66 seconds
+selectCodeEditor("single cycle.v", 208, 352); // cd (w, ch)
+// Elapsed time: 42 seconds
+selectCodeEditor("single cycle.v", 517, 290); // cd (w, ch)
+// Elapsed time: 10 seconds
+selectCodeEditor("single cycle.v", 577, 301); // cd (w, ch)
+selectCodeEditor("single cycle.v", 362, 372); // cd (w, ch)
+selectCodeEditor("single cycle.v", 379, 130); // cd (w, ch)
+selectCodeEditor("single cycle.v", 474, 130); // cd (w, ch)
+selectCodeEditor("single cycle.v", 389, 124); // cd (w, ch)
+selectCodeEditor("single cycle.v", 101, 197); // cd (w, ch)
+selectCodeEditor("single cycle.v", 362, 212); // cd (w, ch)
+selectCodeEditor("single cycle.v", 84, 314); // cd (w, ch)
+// Elapsed time: 126 seconds
+selectCodeEditor("single cycle.v", 206, 156); // cd (w, ch)
+selectCodeEditor("single cycle.v", 208, 159, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 212, 162); // cd (w, ch)
+selectCodeEditor("single cycle.v", 173, 164); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 107, 197); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 94, 234); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 123, 330); // cd (w, ch)
+selectCodeEditor("single cycle.v", 153, 330); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 188, 580); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 46, 387); // cd (w, ch)
+selectCodeEditor("single cycle.v", 184, 431); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 48, 426); // cd (w, ch)
+selectCodeEditor("single cycle.v", 176, 442); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 187, 468); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 101, 470); // cd (w, ch)
+selectCodeEditor("single cycle.v", 160, 459); // cd (w, ch)
+selectCodeEditor("single cycle.v", 165, 463); // cd (w, ch)
+selectCodeEditor("single cycle.v", 153, 448); // cd (w, ch)
+selectCodeEditor("single cycle.v", 141, 244); // cd (w, ch)
+selectCodeEditor("single cycle.v", 141, 215); // cd (w, ch)
+selectCodeEditor("single cycle.v", 170, 471); // cd (w, ch)
+selectCodeEditor("single cycle.v", 172, 572); // cd (w, ch)
+selectCodeEditor("single cycle.v", 149, 639); // cd (w, ch)
+selectCodeEditor("single cycle.v", 42, 547); // cd (w, ch)
+selectCodeEditor("single cycle.v", 119, 645); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 117, 637); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 143, 519); // cd (w, ch)
+selectCodeEditor("single cycle.v", 172, 561); // cd (w, ch)
+selectCodeEditor("single cycle.v", 282, 493); // cd (w, ch)
+selectCodeEditor("single cycle.v", 184, 618); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 196, 107); // cd (w, ch)
+selectButton(RDIResourceCommand.RDICommands_REDO, (String) null); // B (f, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 179, 86); // cd (w, ch)
+selectCodeEditor("single cycle.v", 122, 236); // cd (w, ch)
+selectCodeEditor("single cycle.v", 214, 156); // cd (w, ch)
+selectCodeEditor("single cycle.v", 188, 31); // cd (w, ch)
+selectCodeEditor("single cycle.v", 107, 187); // cd (w, ch)
+selectCodeEditor("single cycle.v", 200, 353); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'c'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 189, 450); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 183, 497); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+typeControlKey(null, null, 'z');
+typeControlKey(null, null, 'z');
+selectCodeEditor("single cycle.v", 186, 66); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 187, 296); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 175, 524); // cd (w, ch)
+selectCodeEditor("single cycle.v", 218, 517); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+selectCodeEditor("single cycle.v", 188, 380); // cd (w, ch)
+selectCodeEditor("single cycle.v", 203, 372); // cd (w, ch)
+typeControlKey((HResource) null, "single cycle.v", 'v'); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 25 seconds
+selectCodeEditor("single cycle.v", 366, 361); // cd (w, ch)
+selectCodeEditor("single cycle.v", 317, 307); // cd (w, ch)
+selectCodeEditor("single cycle.v", 311, 291); // cd (w, ch)
+// Elapsed time: 13 seconds
+selectCodeEditor("single cycle.v", 522, 222); // cd (w, ch)
+selectCodeEditor("single cycle.v", 532, 240); // cd (w, ch)
+selectCodeEditor("single cycle.v", 495, 301); // cd (w, ch)
+selectCodeEditor("single cycle.v", 517, 300); // cd (w, ch)
+selectCodeEditor("single cycle.v", 621, 204); // cd (w, ch)
+selectCodeEditor("single cycle.v", 631, 181); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
+// Elapsed time: 36 seconds
+selectCodeEditor("single cycle.v", 136, 487); // cd (w, ch)
+selectCodeEditor("single cycle.v", 359, 595); // cd (w, ch)
+selectCodeEditor("single cycle.v", 549, 652); // cd (w, ch)
+selectCodeEditor("single cycle.v", 549, 652, false, false, false, false, true); // cd (w, ch) - Double Click
+selectCodeEditor("single cycle.v", 487, 488); // cd (w, ch)
+// Elapsed time: 11 seconds
+selectCodeEditor("single cycle.v", 358, 276); // cd (w, ch)
+selectCodeEditor("single cycle.v", 255, 314); // cd (w, ch)
+selectCodeEditor("single cycle.v", 174, 574); // cd (w, ch)
+selectCodeEditor("single cycle.v", 101, 575); // cd (w, ch)
+// TclEventType: DG_GRAPH_STALE
+// TclEventType: FILE_SET_CHANGE
+// TclEventType: DG_ANALYSIS_MSG_RESET
+// TclEventType: DG_GRAPH_GENERATED
